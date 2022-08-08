@@ -1,0 +1,44 @@
+[
+  {
+    "model": "event.EventDemandsTruthTable",
+    "pk": 1,
+    "fields": {
+      "zone0_priority" : 0,
+      "zone1_priority" : 0,
+      "zone2_priority" : 1,
+      "zone3_priority" : 0,
+      "zone4_priority" : 2,
+      "zone5_priority" : 3,
+      "zone6_priority" : 0,
+      "zone7_priority" : 0
+    }
+  },
+  {
+    "model": "event.EventDemandsTruthTable",
+    "pk": 2,
+    "fields": {
+      "zone0_priority" : 0,
+      "zone1_priority" : 0,
+      "zone2_priority" : 1,
+      "zone3_priority" : 2,
+      "zone4_priority" : 3,
+      "zone5_priority" : 4,
+      "zone6_priority" : 0,
+      "zone7_priority" : 0
+    }
+  },
+  {
+    "model": "event.EventDemandsTruthTable",
+    "pk": 3,
+    "fields": {
+      "zone0_priority" : 0,
+      "zone1_priority" : 0,
+      "zone2_priority" : 1,
+      "zone3_priority" : 2,
+      "zone4_priority" : 3,
+      "zone5_priority" : 0,
+      "zone6_priority" : 0,
+      "zone7_priority" : 0
+    }
+  }
+]

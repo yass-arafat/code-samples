@@ -1,0 +1,185 @@
+[
+  {
+    "model": "notification.NotificationType",
+    "pk": 1,
+    "fields": {
+      "name": "Auto Update Plan",
+      "priority": 70
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 2,
+    "fields": {
+      "name": "Garmin Activity Upload",
+      "priority": 999999
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 3,
+    "fields": {
+      "name": "No Third Party Connected",
+      "priority": 40
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 4,
+    "fields": {
+      "name": "Recovery Day",
+      "priority": 50
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 5,
+    "fields": {
+      "name": "Today Session",
+      "priority": 60
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 6,
+    "fields": {
+      "name": "High Single Ride Load",
+      "priority": 10
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 7,
+    "fields": {
+      "name": "High Recent Training Load",
+      "priority": 20
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 8,
+    "fields": {
+      "name": "Consecutive High Intensity Sessions",
+      "priority": 30
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 9,
+    "fields": {
+      "name": "Account Linked"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 10,
+    "fields": {
+      "name": "Profile Disconnected"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 11,
+    "fields": {
+      "name": "Historic Activity Synced"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 12,
+    "fields": {
+      "name": "New Activity"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 13,
+    "fields": {
+      "name": "Weekly Activity Report"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 14,
+    "fields": {
+      "name": "Knowledge Hub"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 15,
+    "fields": {
+      "name": "Initial Success Purchase"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 16,
+    "fields": {
+      "name": "Payment Renewal Success"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 17,
+    "fields": {
+      "name": "Payment Cancellation Success"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 18,
+    "fields": {
+      "name": "Payment Expiration Success"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 19,
+    "fields": {
+      "name": "Trial Period Expiration Success"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 20,
+    "fields": {
+      "name": "Anchor Session Added"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 21,
+    "fields": {
+      "name": "Training Progress Update"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 22,
+    "fields": {
+      "name": "Training File Upload Check"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 23,
+    "fields": {
+      "name": "Ride and Record Week Analysis Report"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 24,
+    "fields": {
+      "name": "Final Week Analysis Report"
+    }
+  },
+  {
+    "model": "notification.NotificationType",
+    "pk": 25,
+    "fields": {
+      "name": "Provisional Week Analysis Report"
+    }
+  }
+]

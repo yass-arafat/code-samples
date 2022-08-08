@@ -1,0 +1,18 @@
+{% extends 'admin/change_form.html' %}
+{% load staticfiles %}
+
+
+{% block submit_buttons_bottom %}
+{{ block.super }}
+
+
+<!--<script src="{% static 'js/classie.js' %}"></script>-->
+<!--<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">-->
+
+<div class="submit-row">
+<!--    <input type="submit" value="Make Unique" name="_make-unique">-->
+    <button class="btn btn-success" type="submit">Execute back calculation</button>
+</div>
+
+
+{% endblock %}

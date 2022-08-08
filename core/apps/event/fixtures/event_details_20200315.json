@@ -1,0 +1,257 @@
+[
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 1,
+    "fields": {
+      "climbing_ratio": 6,
+      "minimum_distance": 0,
+      "maximum_distance": 80,
+      "minimum_elevation_gain": 0,
+      "maximum_elevation_gain": 480,
+      "complete_lower_target_prs": 27,
+      "complete_upper_target_prs": 36,
+      "compete_lower_target_prs": 34,
+      "compete_upper_target_prs": 44,
+      "podium_lower_target_prs": 49,
+      "podium_upper_target_prs": 64
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 2,
+    "fields": {
+      "climbing_ratio": 6,
+      "minimum_distance": 81,
+      "maximum_distance": 125,
+      "minimum_elevation_gain": 0,
+      "maximum_elevation_gain": 750,
+      "complete_lower_target_prs": 34,
+      "complete_upper_target_prs": 44,
+      "compete_lower_target_prs": 47,
+      "compete_upper_target_prs": 61,
+      "podium_lower_target_prs": 63,
+      "podium_upper_target_prs": 83
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 3,
+    "fields": {
+      "climbing_ratio": 6,
+      "minimum_distance": 126,
+      "maximum_distance": 350,
+      "minimum_elevation_gain": 0,
+      "maximum_elevation_gain": 2100,
+      "complete_lower_target_prs": 39,
+      "complete_upper_target_prs": 51,
+      "compete_lower_target_prs": 58,
+      "compete_upper_target_prs": 76,
+      "podium_lower_target_prs": 68,
+      "podium_upper_target_prs": 89
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 4,
+    "fields": {
+      "climbing_ratio": 19,
+      "minimum_distance": 0,
+      "maximum_distance": 80,
+      "minimum_elevation_gain": 1000,
+      "maximum_elevation_gain": 1520,
+      "complete_lower_target_prs": 31,
+      "complete_upper_target_prs": 41,
+      "compete_lower_target_prs": 41,
+      "compete_upper_target_prs": 53,
+      "podium_lower_target_prs": 53,
+      "podium_upper_target_prs": 70
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 5,
+    "fields": {
+      "climbing_ratio": 19,
+      "minimum_distance": 81,
+      "maximum_distance": 125,
+      "minimum_elevation_gain": 1000,
+      "maximum_elevation_gain": 2375,
+      "complete_lower_target_prs": 39,
+      "complete_upper_target_prs": 51,
+      "compete_lower_target_prs": 53,
+      "compete_upper_target_prs": 70,
+      "podium_lower_target_prs": 68,
+      "podium_upper_target_prs": 89
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 6,
+    "fields": {
+      "climbing_ratio": 19,
+      "minimum_distance": 126,
+      "maximum_distance": 350,
+      "minimum_elevation_gain": 1000,
+      "maximum_elevation_gain": 6650,
+      "complete_lower_target_prs": 44,
+      "complete_upper_target_prs": 57,
+      "compete_lower_target_prs": 63,
+      "compete_upper_target_prs": 83,
+      "podium_lower_target_prs": 78,
+      "podium_upper_target_prs": 102
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 7,
+    "fields": {
+      "climbing_ratio": 29,
+      "minimum_distance": 0,
+      "maximum_distance": 80,
+      "minimum_elevation_gain": 1750,
+      "maximum_elevation_gain": 2320,
+      "complete_lower_target_prs": 34,
+      "complete_upper_target_prs": 44,
+      "compete_lower_target_prs": 47,
+      "compete_upper_target_prs": 61,
+      "podium_lower_target_prs": 68,
+      "podium_upper_target_prs": 89
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 8,
+    "fields": {
+      "climbing_ratio": 29,
+      "minimum_distance": 81,
+      "maximum_distance": 125,
+      "minimum_elevation_gain": 3000,
+      "maximum_elevation_gain": 3625,
+      "complete_lower_target_prs": 47,
+      "complete_upper_target_prs": 61,
+      "compete_lower_target_prs": 63,
+      "compete_upper_target_prs": 83,
+      "podium_lower_target_prs": 78,
+      "podium_upper_target_prs": 102
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 9,
+    "fields": {
+      "climbing_ratio": 29,
+      "minimum_distance": 126,
+      "maximum_distance": 350,
+      "minimum_elevation_gain": 3000,
+      "maximum_elevation_gain": 10150,
+      "complete_lower_target_prs": 50,
+      "complete_upper_target_prs": 66,
+      "compete_lower_target_prs": 68,
+      "compete_upper_target_prs": 89,
+      "podium_lower_target_prs": 92,
+      "podium_upper_target_prs": 121
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 10,
+    "fields": {
+      "climbing_ratio": 19,
+      "minimum_distance": 0,
+      "maximum_distance": 80,
+      "minimum_elevation_gain": 1000,
+      "maximum_elevation_gain": 1520,
+      "complete_lower_target_prs": 31,
+      "complete_upper_target_prs": 41,
+      "compete_lower_target_prs": 41,
+      "compete_upper_target_prs": 53,
+      "podium_lower_target_prs": 53,
+      "podium_upper_target_prs": 70
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 11,
+    "fields": {
+      "climbing_ratio": 19,
+      "minimum_distance": 81,
+      "maximum_distance": 125,
+      "minimum_elevation_gain": 1000,
+      "maximum_elevation_gain": 2375,
+      "complete_lower_target_prs": 39,
+      "complete_upper_target_prs": 51,
+      "compete_lower_target_prs": 53,
+      "compete_upper_target_prs": 70,
+      "podium_lower_target_prs": 68,
+      "podium_upper_target_prs": 89
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 12,
+    "fields": {
+      "climbing_ratio": 19,
+      "minimum_distance": 126,
+      "maximum_distance": 350,
+      "minimum_elevation_gain": 1000,
+      "maximum_elevation_gain": 6650,
+      "complete_lower_target_prs": 44,
+      "complete_upper_target_prs": 57,
+      "compete_lower_target_prs": 63,
+      "compete_upper_target_prs": 83,
+      "podium_lower_target_prs": 78,
+      "podium_upper_target_prs": 102
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 13,
+    "fields": {
+      "climbing_ratio": 29,
+      "minimum_distance": 0,
+      "maximum_distance": 80,
+      "minimum_elevation_gain": 1750,
+      "maximum_elevation_gain": 2320,
+      "complete_lower_target_prs": 34,
+      "complete_upper_target_prs": 44,
+      "compete_lower_target_prs": 47,
+      "compete_upper_target_prs": 61,
+      "podium_lower_target_prs": 68,
+      "podium_upper_target_prs": 89
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 14,
+    "fields": {
+      "climbing_ratio": 29,
+      "minimum_distance": 81,
+      "maximum_distance": 125,
+      "minimum_elevation_gain": 3000,
+      "maximum_elevation_gain": 3625,
+      "complete_lower_target_prs": 47,
+      "complete_upper_target_prs": 61,
+      "compete_lower_target_prs": 63,
+      "compete_upper_target_prs": 83,
+      "podium_lower_target_prs": 78,
+      "podium_upper_target_prs": 102
+    }
+  },
+  {
+    "model": "event.EventTypeDetails",
+    "pk": 15,
+    "fields": {
+      "climbing_ratio": 29,
+      "minimum_distance": 126,
+      "maximum_distance": 350,
+      "minimum_elevation_gain": 3000,
+      "maximum_elevation_gain": 10150,
+      "complete_lower_target_prs": 50,
+      "complete_upper_target_prs": 66,
+      "compete_lower_target_prs": 68,
+      "compete_upper_target_prs": 89,
+      "podium_lower_target_prs": 92,
+      "podium_upper_target_prs": 121
+    }
+  }
+]

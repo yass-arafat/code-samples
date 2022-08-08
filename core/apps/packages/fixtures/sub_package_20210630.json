@@ -1,0 +1,92 @@
+[
+  {
+    "model": "packages.SubPackage",
+    "pk": 1,
+    "fields": {
+      "package": 1,
+      "name": "Rapid Return",
+      "purpose": "For less than 1 month away from cycling",
+      "duration": 42,
+      "multiple_duration": false,
+      "description": "The Pillar Rapid Return to Cycling Package is designed to help cyclists return to full cycling training following a short term injury or illness.",
+      "icon_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/rapid_return.png",
+      "week_zone_focuses": "[1, 1, 0, 2, 3, 0]",
+      "is_active" : true
+    }
+  },
+  {
+    "model": "packages.SubPackage",
+    "pk": 2,
+    "fields": {
+      "package": 1,
+      "name": "Moderate Return",
+      "purpose": "For 1-2 months away from cycling",
+      "duration": 63,
+      "multiple_duration": false,
+      "description": "The Pillar Moderate Return to Cycling Package is designed to help cyclists return to full cycling training following a medium term injury or illness.",
+      "icon_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/moderate_return.png",
+      "week_zone_focuses": "[1, 1, 0, 1, 2, 0, 2, 3, 0]",
+      "is_active" : true
+    }
+  },
+  {
+    "model": "packages.SubPackage",
+    "pk": 3,
+    "fields": {
+      "package": 1,
+      "name": "Cautious Return",
+      "purpose": "For more than 2 months away from cycling",
+      "duration": 84,
+      "multiple_duration": false,
+      "description": "The Pillar Cautious Return to Cycling Package is designed to help cyclists return to full cycling training following a long term injury or illness.",
+      "icon_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/cautious_return.png",
+      "week_zone_focuses": "[1, 1, 0, 1, 1, 0, 2, 2, 0, 2, 3, 0]",
+      "is_active" : true
+    }
+  },
+  {
+    "model": "packages.SubPackage",
+    "pk": 4,
+    "fields": {
+      "package": 2,
+      "name": "Short Climbs",
+      "purpose": "For climbs less than 3 minutes in duration",
+      "duration": null,
+      "multiple_duration": true,
+      "description": "The Pillar Short Climb Hill Climb pack is designed and tailored to specifically improve performance on short punchy anaerobic climbs.",
+      "icon_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/rapid_return.png",
+      "week_zone_focuses": "[(8, [6, 6, 7, 0, \"HC\", \"HC\", \"HC\", 0]), (12, [2, 5, 5, 0, 6, 6, 7, 0, \"HC\", \"HC\", \"HC\", 0]), (16, [2, 2, 2, 0, 2, 5, 5, 0, 6, 6, 7, 0, \"HC\", \"HC\", \"HC\", 0])]",
+      "is_active" : true
+    }
+  },
+  {
+    "model": "packages.SubPackage",
+    "pk": 5,
+    "fields": {
+      "package": 2,
+      "name": "Medium Climbs",
+      "purpose": "For climbs 3-8 minutes in duration",
+      "duration": null,
+      "multiple_duration": true,
+      "description": "The Pillar Medium Climb Hill Climb pack is designed and tailored to specifically improve performance on medium duration climbs. Most suitable for UK climbs.",
+      "icon_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/moderate_return.png",
+      "week_zone_focuses": "[(8, [5, 5, 5, 0, 6, 6, 7, 0]), (12, [2, 2, 3, 0, 5, 5, 5, 0, 6, 6, 7, 0]), (16, [2, 2, 2, 0, 2, 3, 3, 0, 5, 5, 5, 0, 6, 6, 7, 0])]",
+      "is_active" : true
+    }
+  },
+  {
+    "model": "packages.SubPackage",
+    "pk": 6,
+    "fields": {
+      "package": 2,
+      "name": "Long Climbs",
+      "purpose": "For climbs greater than 8 minutes in duration.",
+      "duration": null,
+      "multiple_duration": true,
+      "description": "The Pillar Long Climb Hill Climb pack is designed and tailored to specifically improve performance on long aerobic climbs.",
+      "icon_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/cautious_return.png",
+      "week_zone_focuses": "[(8, [3, 3, 3, 0, 5, 5, 5, 0]), (12, [2, 2, 2, 0, 3, 3, 3, 0, 5, 5, 5, 0]), (16, [2, 2, 2, 0, 3, 3, 3, 0, 5, 5, 5, 0, 5, 5, 5, 0])]",
+      "is_active" : true
+    }
+  }
+]

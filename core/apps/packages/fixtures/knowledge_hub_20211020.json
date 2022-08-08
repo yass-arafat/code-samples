@@ -1,0 +1,80 @@
+[
+  {
+    "model": "packages.KnowledgeHub",
+    "pk": 1,
+    "fields": {
+      "package": 2,
+      "title": "Training",
+      "week_no": 1,
+      "content_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/knowledge-hub/markdown-texts/training_markdown_text.md",
+      "calendar_text": "Knowledge Hub Training information is suggested to be viewed to aid your performance progression.",
+      "notification_text": "View information and tips about the Training associated with your Hill Climb Training Pack.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "packages.KnowledgeHub",
+    "pk": 2,
+    "fields": {
+      "package": 2,
+      "title": "Technique",
+      "week_no": 2,
+      "content_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/knowledge-hub/markdown-texts/climbing_technique_markdown_text.md",
+      "calendar_text": "Knowledge Hub Technique information is suggested to be viewed to aid your performance progression.",
+      "notification_text": "View information and tips about the Technique associated with your Hill Climb Training Pack.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "packages.KnowledgeHub",
+    "pk": 3,
+    "fields": {
+      "package": 2,
+      "title": "Nutrition",
+      "week_no": 3,
+      "content_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/knowledge-hub/markdown-texts/nutrition_markdown_text.md",
+      "calendar_text": "Knowledge Hub Nutrition information is suggested to be viewed to aid your performance progression.",
+      "notification_text": "View information and tips about the Nutrition associated with your Hill Climb Training Pack.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "packages.KnowledgeHub",
+    "pk": 4,
+    "fields": {
+      "package": 2,
+      "title": "Psychology",
+      "week_no": 4,
+      "content_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/knowledge-hub/markdown-texts/psychology_markdown_text.md",
+      "calendar_text": "Knowledge Hub Psychology information is suggested to be viewed to aid your performance progression.",
+      "notification_text": "View information and tips about the Psychology associated with your Hill Climb Training Pack.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "packages.KnowledgeHub",
+    "pk": 5,
+    "fields": {
+      "package": 2,
+      "title": "Equipment",
+      "week_no": 5,
+      "content_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/knowledge-hub/markdown-texts/equipment_markdown_text.md",
+      "calendar_text": "Knowledge Hub Equipment information is suggested to be viewed to aid your performance progression.",
+      "notification_text": "View information and tips about the Equipment associated with your Hill Climb Training Pack.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "packages.KnowledgeHub",
+    "pk": 6,
+    "fields": {
+      "package": 2,
+      "title": "On-the-day tips",
+      "week_no": 6,
+      "content_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/knowledge-hub/markdown-texts/on_the_day_tips_markdown_text.md",
+      "calendar_text": "Knowledge Hub On-the-day tips information is suggested to be viewed to aid your performance progression.",
+      "notification_text": "View information and tips about the On-the-day tips associated with your Hill Climb Training Pack.",
+      "is_active": true
+    }
+  }
+]

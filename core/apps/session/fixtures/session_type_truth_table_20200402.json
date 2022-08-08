@@ -1,0 +1,146 @@
+[
+  {
+    "model": "session.SessionType",
+    "pk": 1,
+    "fields": {
+      "name": "Rest",
+      "code": "REST",
+      "target_zone": 0,
+      "number_of_sessions": 1,
+      "average_intensity": 0.0,
+      "rule": 1
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 2,
+    "fields": {
+      "name": "Easy",
+      "code": "1E",
+      "target_zone": 1,
+      "number_of_sessions": 2,
+      "average_intensity": 0.57,
+      "rule": 2
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 3,
+    "fields": {
+      "name": "Easy",
+      "code": "2E",
+      "target_zone": 2,
+      "number_of_sessions": 2,
+      "average_intensity": 0.63,
+      "rule": 3
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 4,
+    "fields": {
+      "name": "Key",
+      "code": "2K",
+      "target_zone": 2,
+      "number_of_sessions": 3,
+      "average_intensity": 0.69,
+      "rule": 4
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 5,
+    "fields": {
+      "name": "Key",
+      "code": "3K",
+      "target_zone": 3,
+      "number_of_sessions": 15,
+      "average_intensity": 0.75,
+      "rule": 5
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 6,
+    "fields": {
+      "name": "Key",
+      "code": "4K",
+      "target_zone": 4,
+      "number_of_sessions": 20,
+      "average_intensity": 0.80,
+      "rule": 6
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 7,
+    "fields": {
+      "name": "Key",
+      "code": "5K",
+      "target_zone": 5,
+      "number_of_sessions": 19,
+      "average_intensity": 0.81,
+      "rule": 7
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 8,
+    "fields": {
+      "name": "High Intensity Maintenance",
+      "code": "5M",
+      "target_zone": 5,
+      "number_of_sessions": 2,
+      "average_intensity": 0.77,
+      "rule": 10
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 9,
+    "fields": {
+      "name": "Key",
+      "code": "6K",
+      "target_zone": 6,
+      "number_of_sessions": 3,
+      "average_intensity": 0.83,
+      "rule": 8
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 10,
+    "fields": {
+      "name": "Key",
+      "code": "7K",
+      "target_zone": 7,
+      "number_of_sessions": 3,
+      "average_intensity": 0.85,
+      "rule": 9
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 11,
+    "fields": {
+      "name": "Unplanned",
+      "code": "Unplanned",
+      "target_zone": 0,
+      "number_of_sessions": 0,
+      "average_intensity": 0.0,
+      "rule": 11
+    }
+  },
+  {
+    "model": "session.SessionType",
+    "pk": 12,
+    "fields": {
+      "name": "Hill Climb",
+      "code": "HC",
+      "target_zone": 6,
+      "number_of_sessions": 6,
+      "average_intensity": 0.74,
+      "rule": 12
+    }
+  }
+]

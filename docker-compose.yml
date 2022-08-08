@@ -1,0 +1,109 @@
+version: '3'
+
+volumes:
+  production_postgres_data: { }
+  production_postgres_data_backups: { }
+  production_traefik: { }
+
+services:
+  django:
+    build:
+      context: .
+      # dockerfile: ./compose/production/django/Dockerfile
+      dockerfile: ./deploy/Dockerfile
+    image: pillar_core_api_production_django
+    # depends_on:
+    #   - postgres
+    #      - redis
+    env_file:
+      - ./.envs/.production/.django
+      - ./.envs/.production/.postgres
+    # command: /start
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+  rq-worker:
+    image: pillar_core_api_production_django
+    env_file:
+      - ./.envs/.production/.django
+      - ./.envs/.production/.postgres
+    command: /usr/local/bin/python /usr/local/bin/rqscheduler -H redis --port 6379 --db 0
+
+  celery:
+    image: pillar_core_api_production_django
+    env_file:
+      - ./.envs/.production/.django
+      - ./.envs/.production/.postgres
+    command: /usr/local/bin/celery -A config.celery worker -l INFO
+
+  rqworker:
+    image: pillar_core_api_production_django
+    env_file:
+      - ./.envs/.production/.django
+      - ./.envs/.production/.postgres
+    command: /usr/local/bin/python manage.py rqworker high default low
+
+  redis:
+    image: redis:5.0
+
+  pillar-rabbitmq:
+    image: rabbitmq:3.6.16-management-alpine
+    working_dir: /opt/projects/pillar-backend-api
+    healthcheck:
+      test: [ "CMD", "nc", "-z", "localhost", "5672" ]
+      interval: 15s
+      timeout: 30s
+      retries: 2
+    container_name: pillar-rabbitmq
+    hostname: pillar-rabbitmq
+    restart: unless-stopped
+    cpus: 0.5
+    mem_limit: 250m
+    ports:
+      - "5672"
+      - "15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin
+
+  # postgres:
+  #   build:
+  #     context: .
+  #     dockerfile: ./compose/production/postgres/Dockerfile
+  #   image: pillar_core_api_production_postgres
+  #   volumes:
+  #     - production_postgres_data:/var/lib/postgresql/data:Z
+  #     - production_postgres_data_backups:/backups:z
+  #   ports:
+  #     - "54321:5432"
+  #   env_file:
+  #     - ./.envs/.production/.postgres
+
+  # traefik:
+  #   build:
+  #     context: .
+  #     dockerfile: ./compose/production/traefik/Dockerfile
+  #   image: pillar_core_api_production_traefik
+  #   depends_on:
+  #     - django
+  #   volumes:
+  #     - production_traefik:/etc/traefik/acme:z
+  #   ports:
+  #     - "0.0.0.0:80:80"
+  #     - "0.0.0.0:443:443"
+
+
+#
+#
+#  awscli:
+#    build:
+#      context: .
+#      dockerfile: ./compose/production/aws/Dockerfile
+#    env_file:
+#      - ./.envs/.production/.django
+#    volumes:
+#      - production_postgres_data_backups:/backups:z
+networks:
+  host:
+    name: host
+    external: true

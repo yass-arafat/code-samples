@@ -1,0 +1,717 @@
+[
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 1,
+    "fields": {
+      "session_title": "Recovery Spin",
+      "duration_in_min": 30,
+      "intensity_factor": 0.45,
+      "pss_score": 10,
+      "training_goal": "To recover for the next key session",
+      "physiological_goal": "Active recovery",
+      "zone_focus": "0"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 2,
+    "fields": {
+      "session_title": "Recovery Spin",
+      "duration_in_min": 45,
+      "intensity_factor": 0.45,
+      "pss_score": 15,
+      "training_goal": "To recover for the next key session",
+      "physiological_goal": "Active recovery",
+      "zone_focus": "0"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 3,
+    "fields": {
+      "session_title": "Recovery Spin",
+      "duration_in_min": 45,
+      "intensity_factor": 0.45,
+      "pss_score": 15,
+      "training_goal": "To recover for the next key session",
+      "physiological_goal": "Active recovery",
+      "zone_focus": "0"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 4,
+    "fields": {
+      "session_title": "Recovery Spin",
+      "duration_in_min": 60,
+      "intensity_factor": 0.45,
+      "pss_score": 20,
+      "training_goal": "To recover for the next key session",
+      "physiological_goal": "Active recovery",
+      "zone_focus": "0"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 5,
+    "fields": {
+      "session_title": "Basic Endurance Z1/2",
+      "duration_in_min": 60,
+      "intensity_factor": 0.59,
+      "pss_score": 35,
+      "training_goal": "Increase endurance",
+      "physiological_goal": "Increase economy and mitochondiral density",
+      "zone_focus": "1"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 6,
+    "fields": {
+      "session_title": "Basic Endurance Z1/2",
+      "duration_in_min": 90,
+      "intensity_factor": 0.59,
+      "pss_score": 53,
+      "training_goal": "Increase endurance",
+      "physiological_goal": "Increase economy and mitochondiral density",
+      "zone_focus": "1"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 7,
+    "fields": {
+      "session_title": "Basic Endurance Z1/2",
+      "duration_in_min": 120,
+      "intensity_factor": 0.59,
+      "pss_score": 71,
+      "training_goal": "Increase endurance",
+      "physiological_goal": "Increase economy and mitochondiral density",
+      "zone_focus": "1"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 8,
+    "fields": {
+      "session_title": "Basic Endurance Z1/2",
+      "duration_in_min": 180,
+      "intensity_factor": 0.60,
+      "pss_score": 107,
+      "training_goal": "Increase endurance",
+      "physiological_goal": "Increase economy and mitochondiral density",
+      "zone_focus": "1"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 9,
+    "fields": {
+      "session_title": "Basic Endurance Z1/2",
+      "duration_in_min": 240,
+      "intensity_factor": 0.60,
+      "pss_score": 143,
+      "training_goal": "Increase endurance",
+      "physiological_goal": "Increase economy and mitochondiral density",
+      "zone_focus": "1"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 10,
+    "fields": {
+      "session_title": "Basic Endurance Z1/2",
+      "duration_in_min": 300,
+      "intensity_factor": 0.60,
+      "pss_score": 179,
+      "training_goal": "Increase endurance",
+      "physiological_goal": "Increase economy and mitochondiral density",
+      "zone_focus": "1"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 11,
+    "fields": {
+      "session_title": "Endurance Z2",
+      "duration_in_min": 60,
+      "intensity_factor": 0.67,
+      "pss_score": 44,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 12,
+    "fields": {
+      "session_title": "Endurance Z2",
+      "duration_in_min": 90,
+      "intensity_factor": 0.67,
+      "pss_score": 68,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 13,
+    "fields": {
+      "session_title": "Endurance Z2",
+      "duration_in_min": 120,
+      "intensity_factor": 0.68,
+      "pss_score": 92,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 14,
+    "fields": {
+      "session_title": "Endurance Z2",
+      "duration_in_min": 150,
+      "intensity_factor": 0.68,
+      "pss_score": 116,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 15,
+    "fields": {
+      "session_title": "Endurance Z2",
+      "duration_in_min": 180,
+      "intensity_factor": 0.68,
+      "pss_score": 140,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 16,
+    "fields": {
+      "session_title": "Endurance Z2",
+      "duration_in_min": 240,
+      "intensity_factor": 0.68,
+      "pss_score": 187,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 17,
+    "fields": {
+      "session_title": "Endurance Z2 with Sprints",
+      "duration_in_min": 120,
+      "intensity_factor": 0.72,
+      "pss_score": 103,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 18,
+    "fields": {
+      "session_title": "Endurance Z2 with Sprints",
+      "duration_in_min": 180,
+      "intensity_factor": 0.70,
+      "pss_score": 148,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 19,
+    "fields": {
+      "session_title": "Endurance Z2 with Sprints",
+      "duration_in_min": 240,
+      "intensity_factor": 0.70,
+      "pss_score": 194,
+      "training_goal": "Increase aerobic threshold",
+      "physiological_goal": "Increase mitochrondiral & capillary bed density",
+      "zone_focus": "2"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 20,
+    "fields": {
+      "session_title": "Endurance Z2 with 30 minutes Z3 on the Climbs",
+      "duration_in_min": 180,
+      "intensity_factor": 0.70,
+      "pss_score": 148,
+      "training_goal": "Improve endurance and climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "LI"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 21,
+    "fields": {
+      "session_title": "Endurance Z2 with 30mins Z3 on the Climbs",
+      "duration_in_min": 240,
+      "intensity_factor": 0.70,
+      "pss_score": 199,
+      "training_goal": "Improve endurance and climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "LI"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 22,
+    "fields": {
+      "session_title": "Endurance Z2 with 40 minutes Z3 on the Climbs",
+      "duration_in_min": 180,
+      "intensity_factor": 0.71,
+      "pss_score": 153,
+      "training_goal": "Improve endurance and climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "LI"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 23,
+    "fields": {
+      "session_title": "Endurance Z2 with 30 minutes Z4 on the Climbs",
+      "duration_in_min": 240,
+      "intensity_factor": 0.72,
+      "pss_score": 208,
+      "training_goal": "Improve endurance and climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "LI"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 24,
+    "fields": {
+      "session_title": "Tempo Z2/3 Ramp",
+      "duration_in_min": 60,
+      "intensity_factor": 0.72,
+      "pss_score": 52,
+      "training_goal": "Increase aerobic and anaerobic threshold",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "3"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 25,
+    "fields": {
+      "session_title": "3x 10 minutes Tempo",
+      "duration_in_min": 60,
+      "intensity_factor": 0.73,
+      "pss_score": 53,
+      "training_goal": "Increase aerobic and anaerobic threshold",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "3"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 26,
+    "fields": {
+      "session_title": "2x15mins Tempo",
+      "duration_in_min": 60,
+      "intensity_factor": 0.72,
+      "pss_score": 52,
+      "training_goal": "Increase aerobic and anaerobic threshold",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "3"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 27,
+    "fields": {
+      "session_title": "2x20mins Tempo",
+      "duration_in_min": 60,
+      "intensity_factor": 0.76,
+      "pss_score": 58,
+      "training_goal": "Increase aerobic and anaerobic threshold",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "3"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 28,
+    "fields": {
+      "session_title": "3x10mins Strength Endurance",
+      "duration_in_min": 55,
+      "intensity_factor": 0.73,
+      "pss_score": 49,
+      "training_goal": "To improve climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "SE"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 29,
+    "fields": {
+      "session_title": "Strength Endurance Pyramid",
+      "duration_in_min": 60,
+      "intensity_factor": 0.74,
+      "pss_score": 55,
+      "training_goal": "To improve climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "SE"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 30,
+    "fields": {
+      "session_title": "Strength Endurance Ramp",
+      "duration_in_min": 55,
+      "intensity_factor": 0.73,
+      "pss_score": 49,
+      "training_goal": "To improve climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "SE"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 31,
+    "fields": {
+      "session_title": "4x5mins Low Cadence Hill Reps",
+      "duration_in_min": 60,
+      "intensity_factor": 0.73,
+      "pss_score": 53,
+      "training_goal": "To improve climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "SE"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 32,
+    "fields": {
+      "session_title": "5x5mins Low Cadence Hill Reps",
+      "duration_in_min": 70,
+      "intensity_factor": 0.74,
+      "pss_score": 63,
+      "training_goal": "To improve climbing",
+      "physiological_goal": "Increased muscular endurance",
+      "zone_focus": "SE"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 33,
+    "fields": {
+      "session_title": "Threshold Z3/4 Ramp",
+      "duration_in_min": 60,
+      "intensity_factor": 0.77,
+      "pss_score": 59,
+      "training_goal": "Increase FTP",
+      "physiological_goal": "Increased lactate threshold",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 34,
+    "fields": {
+      "session_title": "2x15mins Sweetspot",
+      "duration_in_min": 60,
+      "intensity_factor": 0.78,
+      "pss_score": 61,
+      "training_goal": "Increase FTP",
+      "physiological_goal": "Increased lactate threshold",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 35,
+    "fields": {
+      "session_title": "2x20mins Sweetspot",
+      "duration_in_min": 60,
+      "intensity_factor": 0.82,
+      "pss_score": 67,
+      "training_goal": "Increase FTP",
+      "physiological_goal": "Increased lactate threshold",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 36,
+    "fields": {
+      "session_title": "2x15min Under / Overs",
+      "duration_in_min": 60,
+      "intensity_factor": 0.81,
+      "pss_score": 66,
+      "training_goal": "Increase FTP and VO2max",
+      "physiological_goal": "Increased lactate threshold and lactate buffering",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 37,
+    "fields": {
+      "session_title": "2x20min Under / Overs",
+      "duration_in_min": 60,
+      "intensity_factor": 0.86,
+      "pss_score": 73,
+      "training_goal": "Increase FTP and VO2max",
+      "physiological_goal": "Increased lactate threshold and lactate buffering",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 38,
+    "fields": {
+      "session_title": "2x16min Under / Overs Progression",
+      "duration_in_min": 60,
+      "intensity_factor": 0.83,
+      "pss_score": 68,
+      "training_goal": "Increase FTP and VO2max",
+      "physiological_goal": "Increased lactate threshold and lactate buffering",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 39,
+    "fields": {
+      "session_title": "2x20min Under / Overs Progression",
+      "duration_in_min": 60,
+      "intensity_factor": 0.84,
+      "pss_score": 74,
+      "training_goal": "Increase FTP and VO2max",
+      "physiological_goal": "Increased lactate threshold and lactate buffering",
+      "zone_focus": "4"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 40,
+    "fields": {
+      "session_title": "3x4mins VO2max",
+      "duration_in_min": 45,
+      "intensity_factor": 0.79,
+      "pss_score": 47,
+      "training_goal": "Increase VO2max",
+      "physiological_goal": "HR close / at VO2max HR to increase VO2max",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 41,
+    "fields": {
+      "session_title": "4x4mins VO2max",
+      "duration_in_min": 45,
+      "intensity_factor": 0.83,
+      "pss_score": 52,
+      "training_goal": "Increase VO2max",
+      "physiological_goal": "HR close / at VO2max HR to increase VO2max",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 42,
+    "fields": {
+      "session_title": "4x5mins VO2max",
+      "duration_in_min": 50,
+      "intensity_factor": 0.86,
+      "pss_score": 81,
+      "training_goal": "Increase VO2max",
+      "physiological_goal": "HR close / at VO2max HR to increase VO2max",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 43,
+    "fields": {
+      "session_title": "3x4mins VO2max",
+      "duration_in_min": 45,
+      "intensity_factor": 0.79,
+      "pss_score": 47,
+      "training_goal": "Increase VO2max",
+      "physiological_goal": "HR close / at VO2max HR to increase VO2max",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 44,
+    "fields": {
+      "session_title": "4x6mins VO2max",
+      "duration_in_min": 60,
+      "intensity_factor": 0.85,
+      "pss_score": 73,
+      "training_goal": "Increase VO2max",
+      "physiological_goal": "HR close / at VO2max HR to increase VO2max",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 45,
+    "fields": {
+      "session_title": "4x5min VO2max Microbursts",
+      "duration_in_min": 50,
+      "intensity_factor": 0.83,
+      "pss_score": 57,
+      "training_goal": "Increase VO2max in a race / bunch specific way",
+      "physiological_goal": "HR close to max & improved lactate buffering",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 46,
+    "fields": {
+      "session_title": "4x5min Race Microbursts",
+      "duration_in_min": 55,
+      "intensity_factor": 0.82,
+      "pss_score": 62,
+      "training_goal": "Increase VO2max in a race / bunch specific way",
+      "physiological_goal": "HR close to max & improved lactate buffering",
+      "zone_focus": "5"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 47,
+    "fields": {
+      "session_title": "3x1min Anaerobic Interval Sets",
+      "duration_in_min": 45,
+      "intensity_factor": 0.79,
+      "pss_score": 47,
+      "training_goal": "Improve repeatabilty of anaerobic efforts",
+      "physiological_goal": "Improved lactate tolerance",
+      "zone_focus": "6"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 48,
+    "fields": {
+      "session_title": "5x1min Anaerobic Interval Sets",
+      "duration_in_min": 60,
+      "intensity_factor": 0.83,
+      "pss_score": 68,
+      "training_goal": "Improve repeatabilty of anaerobic efforts",
+      "physiological_goal": "Improved lactate tolerance",
+      "zone_focus": "6"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 49,
+    "fields": {
+      "session_title": "3x2min Anaerobic Interval Sets",
+      "duration_in_min": 55,
+      "intensity_factor": 0.83,
+      "pss_score": 63,
+      "training_goal": "Improve repeatabilty of anaerobic efforts",
+      "physiological_goal": "Improved lactate tolerance",
+      "zone_focus": "6"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 50,
+    "fields": {
+      "session_title": "5x2min Anaerobic Intervals",
+      "duration_in_min": 75,
+      "intensity_factor": 0.86,
+      "pss_score": 93,
+      "training_goal": "Improve repeatabilty of anaerobic efforts",
+      "physiological_goal": "Improved lactate tolerance",
+      "zone_focus": "6"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 51,
+    "fields": {
+      "session_title": "Mixed Anaerobic Efforts",
+      "duration_in_min": 60,
+      "intensity_factor": 0.83,
+      "pss_score": 68,
+      "training_goal": "Improve repeatabilty of anaerobic efforts",
+      "physiological_goal": "Improved lactate tolerance",
+      "zone_focus": "6"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 52,
+    "fields": {
+      "session_title": "Mixed Anaerobic Efforts Progression",
+      "duration_in_min": 65,
+      "intensity_factor": 0.87,
+      "pss_score": 82,
+      "training_goal": "Improve repeatabilty of anaerobic efforts",
+      "physiological_goal": "Improved lactate tolerance",
+      "zone_focus": "6"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 53,
+    "fields": {
+      "session_title": "High Cadence 'Jumps'",
+      "duration_in_min": 45,
+      "intensity_factor": 0.85,
+      "pss_score": 54,
+      "training_goal": "To improve intial 'kick' of sprint",
+      "physiological_goal": "Recruit Type IIb muscle fibres",
+      "zone_focus": "7"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 54,
+    "fields": {
+      "session_title": "Mixed Sprints",
+      "duration_in_min": 64,
+      "intensity_factor": 0.86,
+      "pss_score": 80,
+      "training_goal": "To improve all aspect of the sprint",
+      "physiological_goal": "Recruit Type IIb muscle fibres",
+      "zone_focus": "7"
+    }
+  },
+  {
+    "model": "session_evaluation.SessionTruthTable",
+    "pk": 55,
+    "fields": {
+      "session_title": "Criterium Sprints",
+      "duration_in_min": 60,
+      "intensity_factor": 0.92,
+      "pss_score": 84,
+      "training_goal": "To improve repeatabilty of sprint",
+      "physiological_goal": "Recruit Type IIb muscle fibres & increase lactate tolerance",
+      "zone_focus": "7"
+    }
+  }
+]

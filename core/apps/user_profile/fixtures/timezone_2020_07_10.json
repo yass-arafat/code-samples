@@ -1,0 +1,312 @@
+[
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 1,
+    "fields": {
+      "name": "Hawaii Standard Time",
+      "offset": "-10:00",
+      "offset_second": -36000,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 2,
+    "fields": {
+      "name": "Alaska Standard Time",
+      "offset": "-9:00",
+      "offset_second": -32400,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 3,
+    "fields": {
+      "name": "Pacific Standard Time",
+      "offset": "-8:00",
+      "offset_second": -28800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 4,
+    "fields": {
+      "name": "Mountain Standard Time",
+      "offset": "-7:00",
+      "offset_second": -25200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 5,
+    "fields": {
+      "name": "Central Standard Time",
+      "offset": "-6:00",
+      "offset_second": -21600,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 6,
+    "fields": {
+      "name": "Eastern Standard Time",
+      "offset": "-5:00",
+      "offset_second": -18000,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 7,
+    "fields": {
+      "name": "Atlantic Standard Time",
+      "offset": "-4:00",
+      "offset_second": -14400,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 8,
+    "fields": {
+      "name": "Argentina Time",
+      "offset": "-3:00",
+      "offset_second": -10800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 9,
+    "fields": {
+      "name": "Mid-Atlantic Time",
+      "offset": "-2:00",
+      "offset_second": -7200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 10,
+    "fields": {
+      "name": "Azores Time",
+      "offset": "-1:00",
+      "offset_second": -3600,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 11,
+    "fields": {
+      "name": "Greenwich Mean Time",
+      "offset": "+0:00",
+      "offset_second": 0,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 12,
+    "fields": {
+      "name": "Central European Time",
+      "offset": "+1:00",
+      "offset_second": 3600,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 13,
+    "fields": {
+      "name": "Eastern European Time",
+      "offset": "+2:00",
+      "offset_second": 7200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 14,
+    "fields": {
+      "name": "Central/South Africa Time",
+      "offset": "+2:00",
+      "offset_second": 7200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 15,
+    "fields": {
+      "name": "Arabia Standard Time",
+      "offset": "+3:00",
+      "offset_second": 10800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 16,
+    "fields": {
+      "name": "Eastern Africa Time",
+      "offset": "+3:00",
+      "offset_second": 10800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 17,
+    "fields": {
+      "name": "Moscow Time",
+      "offset": "+3:00",
+      "offset_second": 10800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 18,
+    "fields": {
+      "name": "Armenia Time",
+      "offset": "+4:00",
+      "offset_second": 14400,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 19,
+    "fields": {
+      "name": "Pakistan Standard Time",
+      "offset": "+5:00",
+      "offset_second": 18000,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 20,
+    "fields": {
+      "name": "India Standard Time",
+      "offset": "+5:30",
+      "offset_second": 19800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 21,
+    "fields": {
+      "name": "Omsk Time",
+      "offset": "+6:00",
+      "offset_second": 21600,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 22,
+    "fields": {
+      "name": "Bangladesh Time",
+      "offset": "+6:00",
+      "offset_second": 21600,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 23,
+    "fields": {
+      "name": "Kranoyask Time",
+      "offset": "+7:00",
+      "offset_second": 25200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 24,
+    "fields": {
+      "name": "China Standard Time",
+      "offset": "+8:00",
+      "offset_second": 28800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 25,
+    "fields": {
+      "name": "Australian Western Time",
+      "offset": "+8:00",
+      "offset_second": 28800,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 26,
+    "fields": {
+      "name": "Japan Standard Time",
+      "offset": "+9:00",
+      "offset_second": 32400,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 27,
+    "fields": {
+      "name": "Australian Central Time",
+      "offset": "+9:30",
+      "offset_second": 34200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 28,
+    "fields": {
+      "name": "Australian Eastern Time",
+      "offset": "+10:00",
+      "offset_second": 36000,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 29,
+    "fields": {
+      "name": "Sakhalin Time",
+      "offset": "+11:00",
+      "offset_second": 39600,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 30,
+    "fields": {
+      "name": "New Zealand Time",
+      "offset": "+12:00",
+      "offset_second": 43200,
+      "type": "UTC"
+    }
+  },
+  {
+    "model": "user_profile.TimeZone",
+    "pk": 31,
+    "fields": {
+      "name": "Samoa Standard Time",
+      "offset": "+13:00",
+      "offset_second": 46800,
+      "type": "UTC"
+    }
+  }
+]

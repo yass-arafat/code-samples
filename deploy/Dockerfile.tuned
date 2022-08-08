@@ -1,0 +1,24 @@
+FROM python:3.8.6-alpine3.12
+
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE 1
+
+RUN apk update \
+  && apk add --virtual build-deps --no-cache \
+  && apk add tiff-dev build-base libffi-dev postgresql-dev --no-cache \
+  && mkdir -p /app/logs/ \
+  && chmod -R 777 /app/logs/
+
+COPY ./requirements /requirements
+
+WORKDIR /app
+
+RUN pip install -r /requirements/production.txt
+
+RUN rm -vrf /var/cache/apk/* && apk del tiff-dev build-base libffi-dev postgresql-dev build-deps
+
+COPY ./ .
+
+RUN touch ./logs/ErrorLoggers.log ./logs/InfoLoggers.log ./logs/cronlog.log ./logs/autoupdate.log ./logs/cron.log
+
+CMD ["/usr/local/bin/gunicorn" ,"config.wsgi" ,"--bind" ,"0.0.0.0:5000" ,"--chdir=/app"]

@@ -1,0 +1,530 @@
+[
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 1,
+    "fields": {
+      "activity_name": "Create Training Plan",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 2,
+    "fields": {
+      "activity_name": "Update Training Plan",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 3,
+    "fields": {
+      "activity_name": "User Email Login",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 4,
+    "fields": {
+      "activity_name": "User Logout",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 5,
+    "fields": {
+      "activity_name": "User Garmin Login",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 6,
+    "fields": {
+      "activity_name": "Garmin Deregistration",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 7,
+    "fields": {
+      "activity_name": "User Garmin Connect",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 8,
+    "fields": {
+      "activity_name": "User Garmin Disconnect",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 9,
+    "fields": {
+      "activity_name": "Forget Password",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 10,
+    "fields": {
+      "activity_name": "Reset Password",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 11,
+    "fields": {
+      "activity_name": "Email Confirmation",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 12,
+    "fields": {
+      "activity_name": "User Registration",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 13,
+    "fields": {
+      "activity_name": "Garmin Activity File Submission",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 14,
+    "fields": {
+      "activity_name": "Corrupt Garmin Activity File",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 15,
+    "fields": {
+      "activity_name": "Ignored Garmin Activity File",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 16,
+    "fields": {
+      "activity_name": "Valid Garmin Activity File Calculation Successful",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 17,
+    "fields": {
+      "activity_name": "Valid Garmin Activity File Calculation Failed",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 18,
+    "fields": {
+      "activity_name": "Notification Creation",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 19,
+    "fields": {
+      "activity_name": "Notification History Creation",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 20,
+    "fields": {
+      "activity_name": "User Strava Connect",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 21,
+    "fields": {
+      "activity_name": "User Strava Disconnect",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 22,
+    "fields": {
+      "activity_name": "Valid Strava Activity Data Calculation Successful",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 23,
+    "fields": {
+      "activity_name": "Processed Garmin data and skipped session calculation",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 24,
+    "fields": {
+      "activity_name": "Processed Strava data and skipped session calculation",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 25,
+    "fields": {
+      "activity_name": "Handled Strava Update Request",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 26,
+    "fields": {
+      "activity_name": "Ignored Strava Activity File",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 27,
+    "fields": {
+      "activity_name": "Strava Activity File Submission",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 28,
+    "fields": {
+      "activity_name": "Auto update did not run for a user",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 29,
+    "fields": {
+      "activity_name": "Auto update is successful for a user",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 30,
+    "fields": {
+      "activity_name": "OTP verification successful",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 31,
+    "fields": {
+      "activity_name": "OTP request to reset password",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 32,
+    "fields": {
+      "activity_name": "Add a new goal for user",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 33,
+    "fields": {
+      "activity_name": "Edit event/goal date",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 34,
+    "fields": {
+      "activity_name": "User Session Move",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 35,
+    "fields": {
+      "activity_name": "User Session Delete",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 36,
+    "fields": {
+      "activity_name": "User Profile Update",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 37,
+    "fields": {
+      "activity_name": "User Training Availability Update",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 38,
+    "fields": {
+      "activity_name": "User Profile Picture Update",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 39,
+    "fields": {
+      "activity_name": "Refresh token expired",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 40,
+    "fields": {
+      "activity_name": "Backfill request for getting historical Garmin Activities",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 41,
+    "fields": {
+      "activity_name": "Request for getting historical Strava Activities",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 42,
+    "fields": {
+      "activity_name": "Add manual activity",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 43,
+    "fields": {
+      "activity_name": "Add user away",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 44,
+    "fields": {
+      "activity_name": "Delete user away",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 45,
+    "fields": {
+      "activity_name": "APP USER DATA SYNC",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 46,
+    "fields": {
+      "activity_name": "Pair a completed session with a planned session",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 47,
+    "fields": {
+      "activity_name": "Unpair a evaluated session from a planned session",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 48,
+    "fields": {
+      "activity_name": "Cancel session pairing message",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 49,
+    "fields": {
+      "activity_name": "Delete Session",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 50,
+    "fields": {
+      "activity_name": "Edit Session",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 51,
+    "fields": {
+      "activity_name": "Session Warning Dismiss",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 52,
+    "fields": {
+      "activity_name": "Send workout to Garmin",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 53,
+    "fields": {
+      "activity_name": "User Onboarding",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 54,
+    "fields": {
+      "activity_name": "User Session Feedback",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 55,
+    "fields": {
+      "activity_name": "Delete Goal",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 56,
+    "fields": {
+      "activity_name": "Generate Week Analysis Report",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 57,
+    "fields": {
+      "activity_name": "Week Analysis Feedback",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 58,
+    "fields": {
+      "activity_name": "User Wahoo Connect",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 59,
+    "fields": {
+      "activity_name": "User Wahoo Disconnect",
+      "generated_by": "user"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 60,
+    "fields": {
+      "activity_name": "Wahoo Activity File Submission",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 61,
+    "fields": {
+      "activity_name": "Corrupt Wahoo Activity File",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 62,
+    "fields": {
+      "activity_name": "Ignored Wahoo Activity File",
+      "generated_by": "system"
+    }
+  },
+   {
+    "model": "user_profile.UserActivityType",
+    "pk": 63,
+    "fields": {
+      "activity_name": "Valid Wahoo Activity File Calculation Successful",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 64,
+    "fields": {
+      "activity_name": "User Support Request",
+      "generated_by": "user"
+    }
+  },
+   {
+    "model": "user_profile.UserActivityType",
+    "pk": 65,
+    "fields": {
+      "activity_name": "Added Suggested Session",
+      "generated_by": "system"
+    }
+  },
+  {
+    "model": "user_profile.UserActivityType",
+    "pk": 66,
+    "fields": {
+      "activity_name": "Edit Single Day Availability",
+      "generated_by": "user"
+    }
+  }
+]

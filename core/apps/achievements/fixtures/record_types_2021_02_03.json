@@ -1,0 +1,30 @@
+[
+  {
+    "model": "achievements.RecordType",
+    "pk": 1,
+    "fields": {
+      "name": "Most Elevation"
+    }
+  },
+  {
+    "model": "achievements.RecordType",
+    "pk": 2,
+    "fields": {
+      "name": "Longest Ride"
+    }
+  },
+  {
+    "model": "achievements.RecordType",
+    "pk": 3,
+    "fields": {
+      "name": "Furthest Ride"
+    }
+  },
+  {
+    "model": "achievements.RecordType",
+    "pk": 4,
+    "fields": {
+      "name": "Fastest Ride"
+    }
+  }
+]

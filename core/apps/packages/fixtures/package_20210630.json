@@ -1,0 +1,37 @@
+[
+  {
+    "model": "packages.Package",
+    "pk": 1,
+    "fields": {
+      "name": "Return to Cycling",
+      "purpose": "Ride & Recover",
+      "description": "The Pillar Return to Cycling Package is designed to help cyclists return to full cycling training following an injury/illness or general time off the bike.",
+      "caption": "Choose your return type",
+      "duration": "6 - 12 weeks",
+      "is_active" : true,
+      "goal_type": "LIFESTYLE",
+      "title_image_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/return_to_cycling_title.png",
+      "description_image_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/return_to_cycling_description.png",
+      "share_link": "https://pillarapp.page.link/MZ8A"
+    }
+  },
+  {
+    "model": "packages.Package",
+    "pk": 2,
+    "fields": {
+      "name": "Hill Climb",
+      "purpose": "Ride & Conquer",
+      "description": "The Pillar Hill Climb Pack is designed and tailored to allow cyclists to enhance their Hill Climb Performance. Pick a sub-pack that's most relevant to your Hill Climb demands.",
+      "caption": "Pick the type of climbing performance",
+      "duration": "8 - 16 Weeks",
+      "is_active" : true,
+      "goal_type": "PERFORMANCE",
+      "title_image_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/return_to_cycling_title.png",
+      "description_image_url": "https://pillar-public-bucket.s3.eu-west-2.amazonaws.com/packages/return_to_cycling/return_to_cycling_description.png",
+      "share_link": "https://pillarapp.page.link/H6UZ",
+      "knowledge_hub_title": "Hill Climb Knowledge Hub",
+      "knowledge_hub_text": "Welcome to the Hill Climb Knowledge Hub. Here you will find expert information and guidance on the key components required for a successful hill climb performance.\n\nDue to the nature of climbing, it will never quite be \"easy\", but with expert information around training, technique, nutrition, psychology, equipment and handy tips, you will be able to climb that pesky hill faster and more efficiently.",
+      "goal_detail_knowledge_hub_text": "Expert information about key components required for a successful hill climb performance"
+    }
+  }
+]

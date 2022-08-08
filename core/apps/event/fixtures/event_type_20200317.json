@@ -1,0 +1,197 @@
+[
+  {
+    "model": "event.EventType",
+    "pk": 1,
+    "fields": {
+      "ed_truth_table": 1,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 1,
+      "distance_type": 1,
+      "is_active": true,
+      "details": 1
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 2,
+    "fields": {
+      "ed_truth_table": 1,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 1,
+      "distance_type": 2,
+      "is_active": true,
+      "details": 2
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 3,
+    "fields": {
+      "ed_truth_table": 1,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 1,
+      "distance_type": 3,
+      "is_active": true,
+      "details": 3
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 4,
+    "fields": {
+      "ed_truth_table": 2,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 2,
+      "distance_type": 1,
+      "is_active": true,
+      "details": 4
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 5,
+    "fields": {
+      "ed_truth_table": 2,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 2,
+      "distance_type": 2,
+      "is_active": true,
+      "details": 5
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 6,
+    "fields": {
+      "ed_truth_table": 2,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 2,
+      "distance_type": 3,
+      "is_active": true,
+      "details": 6
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 7,
+    "fields": {
+      "ed_truth_table": 3,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 3,
+      "distance_type": 1,
+      "is_active": true,
+      "details": 7
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 8,
+    "fields": {
+      "ed_truth_table": 3,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 3,
+      "distance_type": 2,
+      "is_active": true,
+      "details": 8
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 9,
+    "fields": {
+      "ed_truth_table": 3,
+      "plan_name": "",
+      "type": 1,
+      "sub_type": 3,
+      "distance_type": 3,
+      "is_active": true,
+      "details": 9
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 10,
+    "fields": {
+      "ed_truth_table": 2,
+      "plan_name": "",
+      "type": 2,
+      "sub_type": 2,
+      "distance_type": 1,
+      "is_active": true,
+      "details": 10
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 11,
+    "fields": {
+      "ed_truth_table": 2,
+      "plan_name": "",
+      "type": 2,
+      "sub_type": 2,
+      "distance_type": 2,
+      "is_active": true,
+      "details": 11
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 12,
+    "fields": {
+      "ed_truth_table": 2,
+      "plan_name": "",
+      "type": 2,
+      "sub_type": 2,
+      "distance_type": 3,
+      "is_active": true,
+      "details": 12
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 13,
+    "fields": {
+      "ed_truth_table": 3,
+      "plan_name": "",
+      "type": 2,
+      "sub_type": 3,
+      "distance_type": 1,
+      "is_active": true,
+      "details": 13
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 14,
+    "fields": {
+      "ed_truth_table": 3,
+      "plan_name": "",
+      "type": 2,
+      "sub_type": 3,
+      "distance_type": 2,
+      "is_active": true,
+      "details": 14
+    }
+  },
+  {
+    "model": "event.EventType",
+    "pk": 15,
+    "fields": {
+      "ed_truth_table": 3,
+      "plan_name": "",
+      "type": 2,
+      "sub_type": 3,
+      "distance_type": 3,
+      "is_active": true,
+      "details": 15
+    }
+  }
+]

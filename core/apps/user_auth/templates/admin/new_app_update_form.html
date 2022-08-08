@@ -1,0 +1,23 @@
+{% extends "admin/base_site.html" %}
+{% load i18n l10n %}
+
+{% block content %}
+<form action="" method="post">{% csrf_token %}
+  <p>Send app update notification to following users:</p>
+  <ul>{{ queryset|unordered_list }}</ul>
+
+  <div>
+  {% for obj in queryset %}
+  <input type="hidden" name="{{ action_checkbox_name }}" value="{{ obj.pk|unlocalize }}" />
+  {% endfor %}
+
+  <label for="android_link">Andoroid URL:</label>
+  <input type="url" id="android_link" name="android_link"><br><br>
+  <label for="ios_link">IOS URL:</label>
+  <input type="url" id="ios_link" name="ios_link"><br><br>
+
+  <input type="hidden" name="action" value="send_app_update_notification" />
+  <input type="submit" name="apply" value="{% trans "Send Notification" %}" />
+  </div>
+</form>
+{% endblock %}

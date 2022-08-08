@@ -1,0 +1,2 @@
+# Required by Pillar App for Push Notification
+FLUTTER_NOTIFICATION_CLICK = "FLUTTER_NOTIFICATION_CLICK"

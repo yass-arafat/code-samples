@@ -1,0 +1,122 @@
+[
+  {
+    "model": "session.SessionRules",
+    "pk": 1,
+    "fields": {
+      "zone_focus": 0,
+      "typical_intensity": 0.0,
+      "minimum_pss": 0,
+      "max_num_of_selected_session_type_per_week": 7
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 2,
+    "fields": {
+      "zone_focus": 1,
+      "typical_intensity": 0.57,
+      "minimum_pss": 24,
+      "max_num_of_selected_session_type_per_week": 6
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 3,
+    "fields": {
+      "zone_focus": 2,
+      "typical_intensity": 0.64,
+      "minimum_pss": 29,
+      "max_num_of_selected_session_type_per_week": 6
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 4,
+    "fields": {
+      "zone_focus": 2,
+      "typical_intensity": 0.71,
+      "minimum_pss": 36,
+      "max_num_of_selected_session_type_per_week": 3
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 5,
+    "fields": {
+      "zone_focus": 3,
+      "typical_intensity": 0.77,
+      "minimum_pss": 45,
+      "max_num_of_selected_session_type_per_week": 3
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 6,
+    "fields": {
+      "zone_focus": 4,
+      "typical_intensity": 0.85,
+      "minimum_pss": 49,
+      "max_num_of_selected_session_type_per_week": 3
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 7,
+    "fields": {
+      "zone_focus": 5,
+      "typical_intensity": 0.85,
+      "minimum_pss": 54,
+      "max_num_of_selected_session_type_per_week": 3
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 8,
+    "fields": {
+      "zone_focus": 6,
+      "typical_intensity": 0.79,
+      "minimum_pss": 50,
+      "max_num_of_selected_session_type_per_week": 2
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 9,
+    "fields": {
+      "zone_focus": 7,
+      "typical_intensity": 0.84,
+      "minimum_pss": 53,
+      "max_num_of_selected_session_type_per_week": 2
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 10,
+    "fields": {
+      "zone_focus": 5,
+      "typical_intensity": 0.77,
+      "minimum_pss": 45,
+      "max_num_of_selected_session_type_per_week": 1
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 11,
+    "fields": {
+      "zone_focus": 0,
+      "typical_intensity": 0.00,
+      "minimum_pss": 0,
+      "max_num_of_selected_session_type_per_week": 0
+    }
+  },
+  {
+    "model": "session.SessionRules",
+    "pk": 12,
+    "fields": {
+      "zone_focus": 6,
+      "typical_intensity": 0.74,
+      "minimum_pss": 31,
+      "max_num_of_selected_session_type_per_week": 2
+    }
+  }
+]

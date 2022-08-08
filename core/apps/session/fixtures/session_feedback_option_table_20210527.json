@@ -1,0 +1,58 @@
+[
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 1,
+    "fields": {
+      "option_code": 1,
+      "option_text": "The intensity was too hard"
+    }
+  },
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 2,
+    "fields": {
+      "option_code": 2,
+      "option_text": "The intensity was too easy"
+    }
+  },
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 3,
+    "fields": {
+      "option_code": 3,
+      "option_text": "I didn't sleep well"
+    }
+  },
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 4,
+    "fields": {
+      "option_code": 4,
+      "option_text": "I am demotivated"
+    }
+  },
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 5,
+    "fields": {
+      "option_code": 5,
+      "option_text": "I am injured"
+    }
+  },
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 6,
+    "fields": {
+      "option_code": 6,
+      "option_text": "I had technical issues"
+    }
+  },
+  {
+    "model": "session.SessionFeedbackOption",
+    "pk": 7,
+    "fields": {
+      "option_code": 7,
+      "option_text": "Other"
+    }
+  }
+]

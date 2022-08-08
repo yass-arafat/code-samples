@@ -1,0 +1,1726 @@
+[
+  {
+    "model": "session.Session",
+    "pk": 1,
+    "fields": {
+      "code": "REST",
+      "session_type": 1,
+      "title": "Recovery Day",
+      "description": "Recovery day to allow training adaptations to occur. Keep hydrated.",
+      "duration_in_minutes": 0.0,
+      "intensity": 0.0,
+      "pss": 0,
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 2,
+    "fields": {
+      "code": "1E_001",
+      "session_type": 2,
+      "title": "Basic Endurance",
+      "description": "Steady endurance ride in zone 1. Stay within the target intensity range the majority of the time. Keep your cadence up.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.56,
+      "pss": 24,
+      "key_zones": "[1]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 3,
+    "fields": {
+      "code": "1E_002",
+      "session_type": 2,
+      "title": "Long Basic Endurance",
+      "description": "Steady endurance ride in zone 1. Stay within the target intensity range the majority of the time. Keep your cadence up. Fuel with 40-60g of carbohydrate per hour and keep hydrated.",
+      "duration_in_minutes": 120.0,
+      "intensity": 0.57,
+      "pss": 65,
+      "key_zones": "[1]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 4,
+    "fields": {
+      "code": "2E_001",
+      "session_type": 3,
+      "title": "Steady Endurance",
+      "description": "Endurance ride in Zone 2. Stay within the target intensity range the majority of the time. Keep your cadence up.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.63,
+      "pss": 29,
+      "key_zones": "[2]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 5,
+    "fields": {
+      "code": "2E_002",
+      "session_type": 3,
+      "title": "Long Basic Endurance",
+      "description": "Endurance ride in Zone 2. Stay within the target intensity range the majority of the time. Keep your cadence up. Fuel with 40-60g of carbohydrate per hour and keep hydrated.",
+      "duration_in_minutes": 120.0,
+      "intensity": 0.64,
+      "pss": 82,
+      "key_zones": "[2]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 6,
+    "fields": {
+      "code": "2K_001",
+      "session_type": 4,
+      "title": "Endurance Ramp",
+      "description": "A ramp through Zone 2 and into Zone 3 to increase aerobic threshold. Maintain the target intensity and cadence for each step.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.69,
+      "pss": 36,
+      "key_zones": "[2, 3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 7,
+    "fields": {
+      "code": "2K_002",
+      "session_type": 4,
+      "title": "Endurance with Sprints",
+      "description": "Endurance ride in Zone 2 with sprints. Focus on high cadence rather than power for the sprints. Fuel with 40-60g of carbohydrate per hour and keep hydrated.",
+      "duration_in_minutes": 90.0,
+      "intensity": 0.71,
+      "pss": 75,
+      "key_zones": "[2]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 8,
+    "fields": {
+      "code": "2K_003",
+      "session_type": 4,
+      "title": "Long Endurance",
+      "description": "Endurance ride in Zone 2. Stay within the target intensity range the majority of the time. Keep your cadence up. Fuel with 40-60g of carbohydrate per hour and keep hydrated.",
+      "duration_in_minutes": 150.0,
+      "intensity": 0.68,
+      "pss": 116,
+      "key_zones": "[2]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 9,
+    "fields": {
+      "code": "3K_001",
+      "session_type": 5,
+      "title": "Strength Endurance Ramps",
+      "description": "Low cadence during the strength endurance intervals is key. Increased strength endurance will help improve climbing ability. If at any point your knees complain, revert to normal cadence.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.77,
+      "pss": 45,
+      "key_zones": "[3, 4]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 10,
+    "fields": {
+      "code": "3K_002",
+      "session_type": 5,
+      "title": "Strength Endurance Ramps",
+      "description": "Low cadence during the strength endurance intervals is key. Increased strength endurance will help improve climbing ability. If at any point your knees complain, revert to normal cadence.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.77,
+      "pss": 59,
+      "key_zones": "[3, 4]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 11,
+    "fields": {
+      "code": "3K_003",
+      "session_type": 5,
+      "title": "Endurance with Zone 3 Climbs",
+      "description": "Aim to complete the low cadence zone 3 intervals on a climb. If at any point your knees complain, revert to normal cadence. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 120.0,
+      "intensity": 0.71,
+      "pss": 102,
+      "key_zones": "[3]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 12,
+    "fields": {
+      "code": "4K_001",
+      "session_type": 6,
+      "title": "Threshold Blocks",
+      "description": "Threshold blocks at 'sweetspot' and then at FTP aiming to raise anaerobic threshold. Lift the cadence for the FTP efforts.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.81,
+      "pss": 49,
+      "key_zones": "[4]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 13,
+    "fields": {
+      "code": "4K_002",
+      "session_type": 6,
+      "title": "Under Over Threshold",
+      "description": "Threshold blocks under and over FTP. Make sure to raise your cadence for the 30 second pushes above anaerobic threshold. Keep hydrated.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.85,
+      "pss": 73,
+      "key_zones": "[4, 5]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 14,
+    "fields": {
+      "code": "4K_003",
+      "session_type": 6,
+      "title": "Endurance with Zone 4 Intervals",
+      "description": "Endurance ride with Zone 4 intervals. Zone 4 intervals can be completed on a hill or on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 100.0,
+      "intensity": 0.75,
+      "pss": 93,
+      "key_zones": "[4]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 15,
+    "fields": {
+      "code": "5K_001",
+      "session_type": 7,
+      "title": "VO2max Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.85,
+      "pss": 54,
+      "key_zones": "[5]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 16,
+    "fields": {
+      "code": "5K_002",
+      "session_type": 7,
+      "title": "VO2max Microbursts",
+      "description": "Zone 5 VO2max mircoburst intervals. 40 seconds 'ON' in Zone 5 at a high cadence followed by 20 seconds 'OFF' in Zone 2. Note the 1 minute primer before each interval to raise your heart rate. Keep hydrated.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.83,
+      "pss": 70,
+      "key_zones": "[5]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 17,
+    "fields": {
+      "code": "5K_003",
+      "session_type": 7,
+      "title": "Endurance with Zone 5 Intervals",
+      "description": "Endurance ride with Zone 5 intervals. Zone 5 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 120.0,
+      "intensity": 0.74,
+      "pss": 110,
+      "key_zones": "[5]",
+      "is_active": false
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 18,
+    "fields": {
+      "code": "5M_001",
+      "session_type": 8,
+      "title": "VO2max Microbursts",
+      "description": "Short, but high intensity Zone 5 & 6 intervals to maintain or improve VO2max. Microburst intervals as either 20 second 'ON', high cadence in Zone 6, 20seconds 'OFF' in Zone 2 or 40 seconds 'ON' in Zone 5 and 20 seconds 'OFF' in Zone 2. Note the 1 minute primer before each interval to raise your heart rate. Keep hydrated.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.77,
+      "pss": 45,
+      "key_zones": "[5, 6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 19,
+    "fields": {
+      "code": "5M_002",
+      "session_type": 8,
+      "title": "VO2max Microbursts, Extended",
+      "description": "Short, but high intensity Zone 5 & 6 intervals to maintain or improve VO2max. Microburst intervals as either 20 second 'ON', high cadence in Zone 6, 20seconds 'OFF' in Zone 2 or 40 seconds 'ON' in Zone 5 and 20 seconds 'OFF' in Zone 2. Note the 1 minute primer before each interval to raise your heart rate. Keep hydrated.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.77,
+      "pss": 60,
+      "key_zones": "[5, 6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 20,
+    "fields": {
+      "code": "6K_001",
+      "session_type": 9,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are a mixture of 1 minute and 30 second anaerobic efforts. These are best performed on a false flat or uphill if possible.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.82,
+      "pss": 50.4,
+      "difficulty_level": 1,
+      "key_zones": "[6, 7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 21,
+    "fields": {
+      "code": "6K_002",
+      "session_type": 9,
+      "title": "Anaerobic Intervals, Extended",
+      "description": "After a thorough warm up there are a mixture of 1 minute and 30 second anaerobic efforts. These are best performed on a false flat or uphill if possible.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.84,
+      "pss": 69.8,
+      "difficulty_level": 3,
+      "key_zones": "[6, 7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 22,
+    "fields": {
+      "code": "6K_003",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 120.0,
+      "intensity": 0.73,
+      "pss": 106.2,
+      "difficulty_level": 5,
+      "key_zones": "[6, 7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 23,
+    "fields": {
+      "code": "7K_001",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up there is a set of high cadence 'jumps', where the focus is on accelerating quickly in a smaller gear. There are two all out sprints to finish. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.84,
+      "pss": 53.4,
+      "difficulty_level": 1,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 24,
+    "fields": {
+      "code": "7K_002",
+      "session_type": 10,
+      "title": "Mixed Sprint Intervals",
+      "description": "After a thorough warm up there is a set of high cadence 'jumps', where the focus is on accelerating quickly in a smaller gear. The low cadence wind ups should be done in a hard gear from a slow speed. There are two all out sprints to finish. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.87,
+      "pss": 76.0,
+      "difficulty_level": 3,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 25,
+    "fields": {
+      "code": "7K_003",
+      "session_type": 10,
+      "title": "Endurance with Zone 7 Sprints",
+      "description": "Endurance ride with a set of high cadence 'jumps', where the focus is on accelerating quickly in a smaller gear. Finish with a set of all out sprints. This session is best performed outdoors on quiet roads for the sprint segments.",
+      "duration_in_minutes": 120.0,
+      "intensity": 0.76,
+      "pss": 116.2,
+      "difficulty_level": 5,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 26,
+    "fields": {
+      "code": "3K_001",
+      "session_type": 5,
+      "title": "Zone 3 3x 10'",
+      "description": "Tempo intervals aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.73,
+      "pss": 45.0,
+      "difficulty_level": 0,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 27,
+    "fields": {
+      "code": "3K_002",
+      "session_type": 5,
+      "title": "Zone 3 3x 10' (Over/Under)",
+      "description": "Tempo intervals with zone 2 \"recovery\" aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.76,
+      "pss": 47.8,
+      "difficulty_level": 2,
+      "key_zones": "[2, 3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 28,
+    "fields": {
+      "code": "3K_003",
+      "session_type": 5,
+      "title": "Zone 3 Steady 45'",
+      "description": "Steady tempo aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 55.0,
+      "intensity": 0.79,
+      "pss": 57.3,
+      "difficulty_level": 3,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 29,
+    "fields": {
+      "code": "3K_004",
+      "session_type": 5,
+      "title": "Zone 3 3x 15'",
+      "description": "Tempo intervals aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 65.0,
+      "intensity": 0.76,
+      "pss": 62.4,
+      "difficulty_level": 1,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 30,
+    "fields": {
+      "code": "3K_005",
+      "session_type": 5,
+      "title": "Zone 3 3x 15' (Over/Under)",
+      "description": "Tempo intervals with zone 2 \"recovery\" aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 65.0,
+      "intensity": 0.78,
+      "pss": 65.3,
+      "difficulty_level": 2,
+      "key_zones": "[2, 3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 31,
+    "fields": {
+      "code": "3K_006",
+      "session_type": 5,
+      "title": "Zone 3 Steady 60'",
+      "description": "Steady tempo aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 70.0,
+      "intensity": 0.8,
+      "pss": 74.8,
+      "difficulty_level": 4,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 32,
+    "fields": {
+      "code": "3K_007",
+      "session_type": 5,
+      "title": "Zone 3 3x 20'",
+      "description": "Tempo intervals aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 80.0,
+      "intensity": 0.77,
+      "pss": 79.8,
+      "difficulty_level": 1,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 33,
+    "fields": {
+      "code": "3K_008",
+      "session_type": 5,
+      "title": "Zone 3 3x 20' (Over/Under)",
+      "description": "Tempo intervals with zone 2 \"recovery\" aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 80.0,
+      "intensity": 0.79,
+      "pss": 82.7,
+      "difficulty_level": 3,
+      "key_zones": "[2, 3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 34,
+    "fields": {
+      "code": "3K_009",
+      "session_type": 5,
+      "title": "Zone 3 Steady 75'",
+      "description": "Steady tempo aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 85.0,
+      "intensity": 0.81,
+      "pss": 92.2,
+      "difficulty_level": 4,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 35,
+    "fields": {
+      "code": "3K_010",
+      "session_type": 5,
+      "title": "Zone 3 3x 25'",
+      "description": "Tempo intervals aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 95.0,
+      "intensity": 0.78,
+      "pss": 97.2,
+      "difficulty_level": 1,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 36,
+    "fields": {
+      "code": "3K_011",
+      "session_type": 5,
+      "title": "Zone 3 3x 25' (Over/Under)",
+      "description": "Tempo intervals with zone 2 \"recovery\" aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 95.0,
+      "intensity": 0.8,
+      "pss": 100.1,
+      "difficulty_level": 3,
+      "key_zones": "[2, 3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 37,
+    "fields": {
+      "code": "3K_012",
+      "session_type": 5,
+      "title": "Zone 3 Steady 90'",
+      "description": "Steady tempo aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 100.0,
+      "intensity": 0.81,
+      "pss": 109.6,
+      "difficulty_level": 5,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 38,
+    "fields": {
+      "code": "3K_013",
+      "session_type": 5,
+      "title": "Zone 3 3x 30'",
+      "description": "Tempo intervals aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 110.0,
+      "intensity": 0.79,
+      "pss": 114.7,
+      "difficulty_level": 2,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 39,
+    "fields": {
+      "code": "3K_014",
+      "session_type": 5,
+      "title": "Zone 3 3x 30' (Over/Under)",
+      "description": "Tempo intervals with zone 2 \"recovery\" aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 110.0,
+      "intensity": 0.8,
+      "pss": 117.6,
+      "difficulty_level": 4,
+      "key_zones": "[2, 3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 40,
+    "fields": {
+      "code": "3K_015",
+      "session_type": 5,
+      "title": "Zone 3 Steady 105'",
+      "description": "Steady tempo aiming to increase the muscles storage of glycogen (fuel). Concentrate on deep and rhythmic breathing.",
+      "duration_in_minutes": 115.0,
+      "intensity": 0.81,
+      "pss": 127.1,
+      "difficulty_level": 5,
+      "key_zones": "[3]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 41,
+    "fields": {
+      "code": "4K_001",
+      "session_type": 6,
+      "title": "3x 5' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 39.0,
+      "intensity": 0.75,
+      "pss": 36.6,
+      "difficulty_level": 0,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 42,
+    "fields": {
+      "code": "4K_002",
+      "session_type": 6,
+      "title": "2x 10' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 49.0,
+      "intensity": 0.74,
+      "pss": 45.1,
+      "difficulty_level": 1,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 43,
+    "fields": {
+      "code": "4K_003",
+      "session_type": 6,
+      "title": "3x 8' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 55.0,
+      "intensity": 0.75,
+      "pss": 51.5,
+      "difficulty_level": 1,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 44,
+    "fields": {
+      "code": "4K_004",
+      "session_type": 6,
+      "title": "2x 10' FTP",
+      "description": "Threshold blocks at FTP aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 51.0,
+      "intensity": 0.78,
+      "pss": 52.1,
+      "difficulty_level": 4,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 45,
+    "fields": {
+      "code": "4K_005",
+      "session_type": 6,
+      "title": "2x 15' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 59.0,
+      "intensity": 0.77,
+      "pss": 58.7,
+      "difficulty_level": 2,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 46,
+    "fields": {
+      "code": "4K_006",
+      "session_type": 6,
+      "title": "3x 10' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 61.0,
+      "intensity": 0.77,
+      "pss": 59.7,
+      "difficulty_level": 2,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 47,
+    "fields": {
+      "code": "4K_007",
+      "session_type": 6,
+      "title": "2x 13' 'Sweetspot' & 2' FTP",
+      "description": "Threshold blocks at 'sweetspot' and then at FTP aiming to raise anaerobic threshold. Lift the cadence for the FTP efforts.",
+      "duration_in_minutes": 58.0,
+      "intensity": 0.79,
+      "pss": 60.2,
+      "difficulty_level": 3,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 48,
+    "fields": {
+      "code": "4K_008",
+      "session_type": 6,
+      "title": "2x 20' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 71.0,
+      "intensity": 0.79,
+      "pss": 73.4,
+      "difficulty_level": 3,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 49,
+    "fields": {
+      "code": "4K_009",
+      "session_type": 6,
+      "title": "4x 10' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 76.0,
+      "intensity": 0.77,
+      "pss": 75.9,
+      "difficulty_level": 3,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 50,
+    "fields": {
+      "code": "4K_010",
+      "session_type": 6,
+      "title": "3x 15' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 82.0,
+      "intensity": 0.78,
+      "pss": 83.2,
+      "difficulty_level": 3,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 51,
+    "fields": {
+      "code": "4K_011",
+      "session_type": 6,
+      "title": "3x 10' FTP w/ 10' Z2 'Under'",
+      "description": "Threshold block at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 76.0,
+      "intensity": 0.81,
+      "pss": 83.3,
+      "difficulty_level": 5,
+      "key_zones": "[2, 4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 52,
+    "fields": {
+      "code": "4K_012",
+      "session_type": 6,
+      "title": "2x 20' FTP",
+      "description": "Threshold blocks at FTP aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 71.0,
+      "intensity": 0.85,
+      "pss": 85.4,
+      "difficulty_level": 5,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 53,
+    "fields": {
+      "code": "4K_013",
+      "session_type": 6,
+      "title": "2x 15' 'Sweetspot' & 7' FTP",
+      "description": "Threshold blocks at 'sweetspot' and then at FTP aiming to raise anaerobic threshold. Lift the cadence for the FTP efforts.",
+      "duration_in_minutes": 76.0,
+      "intensity": 0.82,
+      "pss": 85.5,
+      "difficulty_level": 4,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 54,
+    "fields": {
+      "code": "4K_014",
+      "session_type": 6,
+      "title": "3x 13' 'Sweetspot' & 3' FTP",
+      "description": "Threshold blocks at 'sweetspot' and then at FTP aiming to raise anaerobic threshold. Lift the cadence for the FTP efforts.",
+      "duration_in_minutes": 84.0,
+      "intensity": 0.8,
+      "pss": 90.3,
+      "difficulty_level": 4,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 55,
+    "fields": {
+      "code": "4K_015",
+      "session_type": 6,
+      "title": "Hour of 'Sweetspot' power",
+      "description": "Threshold block at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 81.0,
+      "intensity": 0.84,
+      "pss": 95.6,
+      "difficulty_level": 6,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 56,
+    "fields": {
+      "code": "4K_016",
+      "session_type": 6,
+      "title": "2x 30' Sweetspot",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 96.0,
+      "intensity": 0.8,
+      "pss": 103.2,
+      "difficulty_level": 5,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 57,
+    "fields": {
+      "code": "4K_017",
+      "session_type": 6,
+      "title": "2x 25' FTP",
+      "description": "Threshold blocks at FTP aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 86.0,
+      "intensity": 0.85,
+      "pss": 104.6,
+      "difficulty_level": 6,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 58,
+    "fields": {
+      "code": "4K_018",
+      "session_type": 6,
+      "title": "3x 20' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 101.0,
+      "intensity": 0.79,
+      "pss": 105.7,
+      "difficulty_level": 5,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 59,
+    "fields": {
+      "code": "4K_019",
+      "session_type": 6,
+      "title": "4x 15' 'Sweetspot'",
+      "description": "Threshold blocks at 'sweetspot' aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 105.0,
+      "intensity": 0.78,
+      "pss": 107.7,
+      "difficulty_level": 5,
+      "key_zones": "[4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 60,
+    "fields": {
+      "code": "4K_020",
+      "session_type": 6,
+      "title": "3x 15' FTP w/ 10' Z2 'Under'",
+      "description": "Threshold blocks at FTP with 'recovery' at zone 2 aiming to raise anaerobic threshold. Dig deep, you've got this!",
+      "duration_in_minutes": 91.0,
+      "intensity": 0.85,
+      "pss": 108.3,
+      "difficulty_level": 6,
+      "key_zones": "[2, 4]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 61,
+    "fields": {
+      "code": "5K_001",
+      "session_type": 7,
+      "title": "VO2max 6x 40/20's",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 26.0,
+      "intensity": 0.78,
+      "pss": 26.4,
+      "difficulty_level": 0,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 62,
+    "fields": {
+      "code": "5K_002",
+      "session_type": 7,
+      "title": "VO2max 10x 40/20's",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 32.0,
+      "intensity": 0.81,
+      "pss": 34.7,
+      "difficulty_level": 1,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 63,
+    "fields": {
+      "code": "5K_003",
+      "session_type": 7,
+      "title": "VO2max 10x 60/30's",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 37.0,
+      "intensity": 0.82,
+      "pss": 41.9,
+      "difficulty_level": 1,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 64,
+    "fields": {
+      "code": "5K_004",
+      "session_type": 7,
+      "title": "VO2max 2x (6x 40/20's)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 44.0,
+      "intensity": 0.78,
+      "pss": 44.5,
+      "difficulty_level": 2,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 65,
+    "fields": {
+      "code": "5K_005",
+      "session_type": 7,
+      "title": "VO2max 6x 2' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 40.0,
+      "intensity": 0.84,
+      "pss": 47.0,
+      "difficulty_level": 2,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 66,
+    "fields": {
+      "code": "5K_006",
+      "session_type": 7,
+      "title": "VO2max 2x (6x 60/30's)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.8,
+      "pss": 53.2,
+      "difficulty_level": 2,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 67,
+    "fields": {
+      "code": "5K_007",
+      "session_type": 7,
+      "title": "VO2max 2x (10x 40/20's)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 52.0,
+      "intensity": 0.83,
+      "pss": 59.2,
+      "difficulty_level": 3,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 68,
+    "fields": {
+      "code": "5K_008",
+      "session_type": 7,
+      "title": "VO2max 6x 3' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 52.0,
+      "intensity": 0.86,
+      "pss": 64.5,
+      "difficulty_level": 3,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 69,
+    "fields": {
+      "code": "5K_009",
+      "session_type": 7,
+      "title": "VO2max 10x 2' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 52.0,
+      "intensity": 0.88,
+      "pss": 67.5,
+      "difficulty_level": 3,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 70,
+    "fields": {
+      "code": "5K_010",
+      "session_type": 7,
+      "title": "VO2max 2x (10x 60/30's)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 62.0,
+      "intensity": 0.84,
+      "pss": 73.6,
+      "difficulty_level": 3,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 71,
+    "fields": {
+      "code": "5K_011",
+      "session_type": 7,
+      "title": "VO2max 6x 4' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 61.0,
+      "intensity": 0.87,
+      "pss": 76.8,
+      "difficulty_level": 4,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 72,
+    "fields": {
+      "code": "5K_012",
+      "session_type": 7,
+      "title": "VO2max 2x (15x 40/20's)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 72.0,
+      "intensity": 0.83,
+      "pss": 83.1,
+      "difficulty_level": 4,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 73,
+    "fields": {
+      "code": "5K_013",
+      "session_type": 7,
+      "title": "VO2max 2x (6x 2' Intervals)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 68.0,
+      "intensity": 0.86,
+      "pss": 83.9,
+      "difficulty_level": 3,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 74,
+    "fields": {
+      "code": "5K_014",
+      "session_type": 7,
+      "title": "VO2max 6x 5' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 69.0,
+      "intensity": 0.89,
+      "pss": 91.0,
+      "difficulty_level": 4,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 75,
+    "fields": {
+      "code": "5K_015",
+      "session_type": 7,
+      "title": "VO2max 2x (15x 60/30's)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 87.0,
+      "intensity": 0.85,
+      "pss": 104.7,
+      "difficulty_level": 4,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 76,
+    "fields": {
+      "code": "5K_016",
+      "session_type": 7,
+      "title": "VO2max 9x 4' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 82.0,
+      "intensity": 0.89,
+      "pss": 107.8,
+      "difficulty_level": 5,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 77,
+    "fields": {
+      "code": "5K_017",
+      "session_type": 7,
+      "title": "VO2max 2x (6x 3' Intervals)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 92.0,
+      "intensity": 0.88,
+      "pss": 118.8,
+      "difficulty_level": 5,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 78,
+    "fields": {
+      "code": "5K_018",
+      "session_type": 7,
+      "title": "VO2max 9x 5' Intervals",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 94.5,
+      "intensity": 0.88,
+      "pss": 121.9,
+      "difficulty_level": 5,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 79,
+    "fields": {
+      "code": "5K_019",
+      "session_type": 7,
+      "title": "VO2max 2x (10x 2' Intervals)",
+      "description": "Zone 5 VO2max intervals. Note the primer minute before each interval to elevate heart rate. Maintain a high cadence for the VO2max intervals. Keep hydrated.",
+      "duration_in_minutes": 97.0,
+      "intensity": 0.89,
+      "pss": 127.5,
+      "difficulty_level": 5,
+      "key_zones": "[5]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 80,
+    "fields": {
+      "code": "6K_004",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 35.0,
+      "intensity": 0.69,
+      "pss": 27.7,
+      "difficulty_level": 0,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 81,
+    "fields": {
+      "code": "6K_005",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 43.0,
+      "intensity": 0.73,
+      "pss": 37.7,
+      "difficulty_level": 1,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 82,
+    "fields": {
+      "code": "6K_006",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 55.0,
+      "intensity": 0.73,
+      "pss": 49.4,
+      "difficulty_level": 1,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 83,
+    "fields": {
+      "code": "6K_007",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.79,
+      "pss": 51.5,
+      "difficulty_level": 2,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 84,
+    "fields": {
+      "code": "6K_008",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 58.5,
+      "intensity": 0.8,
+      "pss": 62.5,
+      "difficulty_level": 2,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 85,
+    "fields": {
+      "code": "6K_009",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 57.5,
+      "intensity": 0.84,
+      "pss": 68.0,
+      "difficulty_level": 3,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 86,
+    "fields": {
+      "code": "6K_010",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 62.0,
+      "intensity": 0.86,
+      "pss": 75.6,
+      "difficulty_level": 3,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 87,
+    "fields": {
+      "code": "6K_011",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 58.0,
+      "intensity": 0.84,
+      "pss": 68.2,
+      "difficulty_level": 3,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 88,
+    "fields": {
+      "code": "6K_012",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 69.5,
+      "intensity": 0.9,
+      "pss": 93.0,
+      "difficulty_level": 4,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 89,
+    "fields": {
+      "code": "6K_013",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 65.0,
+      "intensity": 0.88,
+      "pss": 84.4,
+      "difficulty_level": 4,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 90,
+    "fields": {
+      "code": "6K_014",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 69.0,
+      "intensity": 0.85,
+      "pss": 83.7,
+      "difficulty_level": 4,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 91,
+    "fields": {
+      "code": "6K_015",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 81.0,
+      "intensity": 0.9,
+      "pss": 108.7,
+      "difficulty_level": 5,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 92,
+    "fields": {
+      "code": "6K_016",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 83.5,
+      "intensity": 0.91,
+      "pss": 114.7,
+      "difficulty_level": 5,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 93,
+    "fields": {
+      "code": "6K_017",
+      "session_type": 9,
+      "title": "Endurance with Zone 6 Intervals",
+      "description": "Endurance ride with Zone 6 intervals. Zone 6 intervals ideally to be completed uphill, but could be on the flat. Fuel with 40-60g of carbohydrate per hour. Keep hydrated.",
+      "duration_in_minutes": 81.0,
+      "intensity": 0.93,
+      "pss": 117.8,
+      "difficulty_level": 5,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 94,
+    "fields": {
+      "code": "7K_004",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 40.0,
+      "intensity": 0.74,
+      "pss": 36.4,
+      "difficulty_level": 0,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 95,
+    "fields": {
+      "code": "7K_005",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.77,
+      "pss": 49.8,
+      "difficulty_level": 1,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 96,
+    "fields": {
+      "code": "7K_006",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 40.0,
+      "intensity": 0.79,
+      "pss": 41.9,
+      "difficulty_level": 1,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 97,
+    "fields": {
+      "code": "7K_007",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.84,
+      "pss": 59.1,
+      "difficulty_level": 2,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 98,
+    "fields": {
+      "code": "7K_008",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 40.0,
+      "intensity": 0.84,
+      "pss": 47.5,
+      "difficulty_level": 2,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 99,
+    "fields": {
+      "code": "7K_009",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 50.0,
+      "intensity": 0.91,
+      "pss": 68.3,
+      "difficulty_level": 3,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 100,
+    "fields": {
+      "code": "7K_010",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 44.1,
+      "intensity": 0.87,
+      "pss": 55.4,
+      "difficulty_level": 3,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 101,
+    "fields": {
+      "code": "7K_011",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 56.9,
+      "intensity": 0.93,
+      "pss": 81.6,
+      "difficulty_level": 4,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 102,
+    "fields": {
+      "code": "7K_012",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 46.0,
+      "intensity": 0.9,
+      "pss": 62.0,
+      "difficulty_level": 4,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 103,
+    "fields": {
+      "code": "7K_013",
+      "session_type": 10,
+      "title": "Sprint Intervals",
+      "description": "After a thorough warm up you will complete an all out sprints session with long recovery intervals, where the focus is to achive maximal power output. This session is best performed outdoors on a quiet road.",
+      "duration_in_minutes": 60.0,
+      "intensity": 0.96,
+      "pss": 92.7,
+      "difficulty_level": 5,
+      "key_zones": "[7]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 104,
+    "fields": {
+      "code": "HC_001",
+      "session_type": 12,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are  1 minute anaerobic efforts, with sufficient recovery. These are best performed on a  uphill gradient if possible.",
+      "duration_in_minutes": 45.0,
+      "intensity": 0.73,
+      "pss": 39.6,
+      "difficulty_level": 0,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 105,
+    "fields": {
+      "code": "HC_002",
+      "session_type": 12,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are  90 second anaerobic efforts, with sufficient recovery. These are best performed on a  uphill gradient if possible.",
+      "duration_in_minutes": 47.0,
+      "intensity": 0.78,
+      "pss": 47.1,
+      "difficulty_level": 1,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 106,
+    "fields": {
+      "code": "HC_003",
+      "session_type": 12,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are  3 minute efforts, with sufficient recovery. These are best performed on a  uphill gradient if possible.",
+      "duration_in_minutes": 57.0,
+      "intensity": 0.78,
+      "pss": 57.9,
+      "difficulty_level": 2,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 107,
+    "fields": {
+      "code": "HC_004",
+      "session_type": 12,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are 2.5 minute efforts, with sufficient recovery. These are best performed on a  uphill gradient if possible.",
+      "duration_in_minutes": 55.0,
+      "intensity": 0.76,
+      "pss": 52.7,
+      "difficulty_level": 2,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 108,
+    "fields": {
+      "code": "HC_005",
+      "session_type": 12,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are 2 minute efforts, with sufficient recovery. These are best performed on a  uphill gradient if possible.",
+      "duration_in_minutes": 53.0,
+      "intensity": 0.73,
+      "pss": 47.5,
+      "difficulty_level": 1,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  },
+  {
+    "model": "session.Session",
+    "pk": 109,
+    "fields": {
+      "code": "HC_006",
+      "session_type": 12,
+      "title": "Anaerobic Intervals",
+      "description": "After a thorough warm up there are 30 second anaerobic efforts, with sufficient recovery. These are best performed on a  uphill gradient if possible.",
+      "duration_in_minutes": 43.0,
+      "intensity": 0.67,
+      "pss": 32.1,
+      "difficulty_level": 0,
+      "key_zones": "[6]",
+      "is_active": true
+    }
+  }
+]

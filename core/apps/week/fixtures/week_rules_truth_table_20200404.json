@@ -1,0 +1,227 @@
+[
+  {
+    "model": "week.WeekRules",
+    "pk": 1,
+    "fields": {
+      "zone_focus": 0,
+      "priority_number": 1,
+      "session_type": 8
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 2,
+    "fields": {
+      "zone_focus": 0,
+      "priority_number": 3,
+      "session_type": 2
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 3,
+    "fields": {
+      "zone_focus": 0,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 4,
+    "fields": {
+      "zone_focus": 1,
+      "priority_number": 1,
+      "session_type": 8
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 5,
+    "fields": {
+      "zone_focus": 1,
+      "priority_number": 3,
+      "session_type": 2
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 6,
+    "fields": {
+      "zone_focus": 1,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 7,
+    "fields": {
+      "zone_focus": 2,
+      "priority_number": 1,
+      "session_type": 8
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 8,
+    "fields": {
+      "zone_focus": 2,
+      "priority_number": 2,
+      "session_type": 4
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 9,
+    "fields": {
+      "zone_focus": 2,
+      "priority_number": 3,
+      "session_type": 2
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 10,
+    "fields": {
+      "zone_focus": 2,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 11,
+    "fields": {
+      "zone_focus": 3,
+      "priority_number": 2,
+      "session_type": 5
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 12,
+    "fields": {
+      "zone_focus": 3,
+      "priority_number": 3,
+      "session_type": 3
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 13,
+    "fields": {
+      "zone_focus": 3,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 14,
+    "fields": {
+      "zone_focus": 4,
+      "priority_number": 2,
+      "session_type": 6
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 15,
+    "fields": {
+      "zone_focus": 4,
+      "priority_number": 3,
+      "session_type": 3
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 16,
+    "fields": {
+      "zone_focus": 4,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+{
+    "model": "week.WeekRules",
+    "pk": 17,
+    "fields": {
+      "zone_focus": 5,
+      "priority_number": 2,
+      "session_type": 7
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 18,
+    "fields": {
+      "zone_focus": 5,
+      "priority_number": 3,
+      "session_type": 3
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 19,
+    "fields": {
+      "zone_focus": 5,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+{
+    "model": "week.WeekRules",
+    "pk": 20,
+    "fields": {
+      "zone_focus": 6,
+      "priority_number": 2,
+      "session_type": 9
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 21,
+    "fields": {
+      "zone_focus": 6,
+      "priority_number": 3,
+      "session_type": 3
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 22,
+    "fields": {
+      "zone_focus": 6,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  },
+{
+    "model": "week.WeekRules",
+    "pk": 23,
+    "fields": {
+      "zone_focus": 7,
+      "priority_number": 2,
+      "session_type": 10
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 24,
+    "fields": {
+      "zone_focus": 7,
+      "priority_number": 3,
+      "session_type": 3
+    }
+  },
+  {
+    "model": "week.WeekRules",
+    "pk": 25,
+    "fields": {
+      "zone_focus": 7,
+      "priority_number": 4,
+      "session_type": 1
+    }
+  }
+]

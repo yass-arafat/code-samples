@@ -1,0 +1,2403 @@
+[
+  {
+    "model": "event.NamedEvent",
+    "pk": 1,
+    "fields": {
+      "name": "Ride London 100",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 1489,
+      "climbing_ratio": 10,
+      "start_date": "2022-08-14",
+      "end_date": "2022-08-14",
+      "description": "Following the legacy of the London Olympic games, Ride London is one of the most popular sportives in the world. The route takes cyclists through the beautiful surroundings of London and Surrey. The route has few climbc including the famous Box Hill.",
+      "country": "UK",
+      "city": "London",
+      "performance_goal": -1,
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/jorU"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 2,
+    "fields": {
+      "name": "L'Étape du Tour",
+      "event_type": 9,
+      "sports_type": "CYCLING",
+      "distance_per_day": 177,
+      "elevation_gain": 3570,
+      "climbing_ratio": 21,
+      "start_date": "2021-07-04",
+      "end_date": "2021-07-04",
+      "performance_goal": -1,
+      "description": "L'Étape du Tour is considered as one of the pinnacle events for amateur cyclists. This event allows amateur riders to test themselves on closed roads on the exact same route as a stage of the Tour de France.",
+      "country": "FR",
+      "city": "Nice",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/1969"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 3,
+    "fields": {
+      "name": "Maratona dles Dolomites",
+      "event_type": 9,
+      "sports_type": "CYCLING",
+      "distance_per_day": 138,
+      "elevation_gain": 4230,
+      "climbing_ratio": 31,
+      "start_date": "2021-07-04",
+      "end_date": "2021-07-04",
+      "performance_goal": -1,
+      "description": "The Maratona dles Dolomites is arguable one of the most epic sportives on the calendar. The route takes on seven mountain passes in the Dolomites, so you won't be short of tough climbs in this event.",
+      "country": "ITA",
+      "city": "La Villa",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/h3ZN"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 4,
+    "fields": {
+      "name": "Amy's Gran Fondo (130 km)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 130,
+      "elevation_gain": 1903,
+      "climbing_ratio": 15,
+      "start_date": "2022-09-11",
+      "end_date": "2022-09-11",
+      "performance_goal": -1,
+      "description": "Amy's Gran Fondo is a world class event that has quickly become Australia's best cycling event. The event is held on fully closed roads in one of the most picturesque destinations on the planet - the Great Ocean Road. ",
+      "country": "AU",
+      "city": "Victoria ",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/wknA"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 5,
+    "fields": {
+      "name": "L'Étape Brazil",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 107,
+      "elevation_gain": 2330,
+      "climbing_ratio": 22,
+      "start_date": "2022-09-24",
+      "end_date": "2022-09-24",
+      "performance_goal": -1,
+      "description": "L'Étape Brazil provides amateur riders with the closest experience they can get to the Tour de France. The route replicates a mountainous stage of the Tour de France. It is not an easy ride, but it a ride you will be proud to complete.",
+      "country": "BR",
+      "city": "Cunha",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/X3wZ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 6,
+    "fields": {
+      "name": "L'Étape Australia",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 136,
+      "elevation_gain": 2770,
+      "climbing_ratio": 21,
+      "start_date": "2022-03-20",
+      "end_date": "2022-03-20",
+      "performance_goal": -1,
+      "description": "L'Étape Australia provides amateur riders with the closes experience they can get to riding the Tour de France. The route replicates a mountainous stage of the Tour de France. It is not an easy ride, but it a ride you will be proud to complete.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/Q55o"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 7,
+    "fields": {
+      "name": "Mallorca 312",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 312,
+      "elevation_gain": 5050,
+      "climbing_ratio": 17,
+      "start_date": "2021-10-24",
+      "end_date": "2021-10-24",
+      "performance_goal": -1,
+      "description": "The Mallorca 312 is one of the longest one day amateur cycling event on the sportive calendar. It is also one of the toughest routes taking in 312km of riding with over 5,000m of climbing. ",
+      "country": "ES",
+      "city": "Play de Muro",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/q6dQ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 8,
+    "fields": {
+      "name": "RBC Gran Fondo Whistler (Gran Fondo)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 122,
+      "elevation_gain": 1900,
+      "climbing_ratio": 16,
+      "start_date": "2021-09-11",
+      "end_date": "2021-09-11",
+      "performance_goal": -1,
+      "description": "Voted as North America's best gran fondo, the RBC Gran Fondo shouldn't be missed. Ride the traffic-free roads from sea to sky in this iconic event from Vancouver to Whistler.",
+      "country": "CA",
+      "city": "Vancouver",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/WzSs"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 9,
+    "fields": {
+      "name": "Levi's Gran Fondo",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 161,
+      "elevation_gain": 2795,
+      "climbing_ratio": 18,
+      "start_date": "2021-05-29",
+      "end_date": "2021-05-29",
+      "performance_goal": -1,
+      "description": "Considered as America's Premier Gran Fondo, the Levi's Gran Fondo provides a great challenge and social event for cyclists of all ability levels. ",
+      "country": "USA",
+      "city": "California",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/LTru"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 10,
+    "fields": {
+      "name": "Fred Whitton Challenge",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 183,
+      "elevation_gain": 2887,
+      "climbing_ratio": 16,
+      "start_date": "2022-05-08",
+      "end_date": "2022-05-08",
+      "performance_goal": -1,
+      "description": "The Fred Whitton is widely regarded as the toughest sportive in the UK. It's right up there with European events such as the Etape du Tour, Marmotte and Maratona dles Dolomites. Starting in the middle of the Lake District, the route takes in plenty of the iconic climbs of the area, including the Hardknott pass 99 miles into the ride. This event will definitely test your physical and mental strength.",
+      "country": "UK",
+      "city": "Lake District ",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/eJcH"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 11,
+    "fields": {
+      "name": "Amy's Gran Fondo (45 km)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 45,
+      "elevation_gain": 659,
+      "climbing_ratio": 15,
+      "start_date": "2022-09-11",
+      "end_date": "2022-09-11",
+      "performance_goal": -1,
+      "description": "Amy's Gran Fondo is a world class event that has quickly become Australia's best cycling event. The event is held on fully closed roads in one of the most picturesque destinations on the planet - the Great Ocean Road.",
+      "country": "Victoria",
+      "city": "AU",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/RHTS"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 12,
+    "fields": {
+      "name": "RBC Gran Fondo Whistler (Medio)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 55,
+      "elevation_gain": 835,
+      "climbing_ratio": 16,
+      "start_date": "2021-09-11",
+      "end_date": "2021-09-11",
+      "performance_goal": -1,
+      "description": "Voted as North America's best gran fondo, the RBC Gran Fondo shouldn't be missed. Ride the traffic-free roads from sea to sky in this iconic event from Vancouver to Whistler.",
+      "country": "CA",
+      "city": "Vancouver",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/iW57"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 13,
+    "fields": {
+      "name": "RBC Gran Fondo Whistler (Forte)",
+      "event_type": 9,
+      "sports_type": "CYCLING",
+      "distance_per_day": 157,
+      "elevation_gain": 3100,
+      "climbing_ratio": 20,
+      "start_date": "2021-09-11",
+      "end_date": "2021-09-11",
+      "performance_goal": -1,
+      "description": "Voted as North America's best gran fondo, the RBC Gran Fondo shouldn't be missed. Ride the traffic-free roads from sea to sky in this iconic event from Vancouver to Whistler.",
+      "country": "CA",
+      "city": "Vancouver",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/RmiV"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 14,
+    "fields": {
+      "name": "Etape Loch Ness",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 106,
+      "elevation_gain": 1476,
+      "climbing_ratio": 14,
+      "start_date": "2021-08-22",
+      "end_date": "2021-08-22",
+      "performance_goal": -1,
+      "description": "A truly iconic sportive taking place around Loch Ness. The 66 miles closed-road route takes you around the loch, starting and finishing in the Highland capital of Inverness. Remember to test yourself on the timed 9km King of the Mountain Stage.",
+      "country": "UK",
+      "city": "Inverness",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/N3Zf"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 15,
+    "fields": {
+      "name": "Manchester 100 (100 Miles)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 970,
+      "climbing_ratio": 7,
+      "start_date": "2021-09-05",
+      "end_date": "2021-09-05",
+      "performance_goal": -1,
+      "description": "Starting and finishing in Wythenshawe Park, the Manchester 100 will take you through beautiful country lanes on a sweep through the beautiful Cheshire landscape.",
+      "country": "UK",
+      "city": "Manchester",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/vD6H"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 16,
+    "fields": {
+      "name": "Manchester 100 (100 Kilometers)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 100,
+      "elevation_gain": 533,
+      "climbing_ratio": 6,
+      "start_date": "2021-09-05",
+      "end_date": "2021-09-05",
+      "performance_goal": -1,
+      "description": "Starting and finishing in Wythenshawe Park, the Manchester 100 will take you through beautiful country lanes on a sweep through the beautiful Cheshire landscape.",
+      "country": "UK",
+      "city": "Manchester",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/yFQt"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 17,
+    "fields": {
+      "name": "Tom Pidcock Gran Fondo (180 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 180,
+      "elevation_gain": 2430,
+      "climbing_ratio": 14,
+      "start_date": "2021-08-01",
+      "end_date": "2021-08-01",
+      "performance_goal": -1,
+      "description": "Following an explosive entry into the World Tour this year, Ineos Grenadiers rider Tom Pidcock is returning to his home training ground of Yorkshire to host an epic new Gran Fondo. Test yourself on some of Tom's favourite Yorkshire climbs.",
+      "country": "UK",
+      "city": "Ilkley",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/s3GC"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 18,
+    "fields": {
+      "name": "Tom Pidcock Gran Fondo (110 km)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 110,
+      "elevation_gain": 1423,
+      "climbing_ratio": 13,
+      "start_date": "2021-08-01",
+      "end_date": "2021-08-01",
+      "performance_goal": -1,
+      "description": "Following an explosive entry into the World Tour this year, Ineos Grenadiers rider Tom Pidcock is returning to his home training ground of Yorkshire to host an epic new Gran Fondo. Test yourself on some of Tom's favourite Yorkshire climbs.",
+      "country": "UK",
+      "city": "Ilkley",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/WMRv"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 19,
+    "fields": {
+      "name": "Tom Pidcock Gran Fondo (50 km)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 50,
+      "elevation_gain": 789,
+      "climbing_ratio": 16,
+      "start_date": "2021-08-01",
+      "end_date": "2021-08-01",
+      "performance_goal": -1,
+      "description": "Following an explosive entry into the World Tour this year, Ineos Grenadiers rider Tom Pidcock is returning to his home training ground of Yorkshire to host an epic new Gran Fondo. Test yourself on some of Tom's favourite Yorkshire climbs.",
+      "country": "UK",
+      "city": "Ilkley",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/b8iB"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 20,
+    "fields": {
+      "name": "Tour of the Borders (120 Kilometres)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 120,
+      "elevation_gain": 1430,
+      "climbing_ratio": 12,
+      "start_date": "2021-09-05",
+      "end_date": "2021-09-05",
+      "performance_goal": -1,
+      "description": "The Tour of the Borders is a top class, closed road sportive which takes you through the beautiful Border roads. This event offers some of the best road cycling terrain in Scotland. Remember to test yourself on the famous Tall Wall climb. ",
+      "country": "UK",
+      "city": "Tweed Green",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/v7Mm"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 21,
+    "fields": {
+      "name": "Tour of the Borders (88 Kilometres)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 88,
+      "elevation_gain": 890,
+      "climbing_ratio": 11,
+      "start_date": "2021-09-05",
+      "end_date": "2021-09-05",
+      "performance_goal": -1,
+      "description": "The Tour of the Borders is a top class, closed road sportive which takes you through the beautiful Border roads. This event offers some of the best road cycling terrain in Scotland. Remember to test yourself on the famous Tall Wall climb.",
+      "country": "UK",
+      "city": "Tweed Green",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/mq4o"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 22,
+    "fields": {
+      "name": "Le Petit Grand Prix Sportive (Long)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 1145,
+      "climbing_ratio": 8,
+      "start_date": "2022-09-04",
+      "end_date": "2022-09-04",
+      "performance_goal": -1,
+      "description": "The Le Petit Grand Prix Sportive is the little sister event to the successful Lincoln Grand Prix. The route is characterised by rolling, steady hills, with a maximum gradient of 5%. ",
+      "country": "UK",
+      "city": "Lincoln",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/G4Vf"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 23,
+    "fields": {
+      "name": "Le Petit Grand Prix Sportive (Medium)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 117,
+      "elevation_gain": 786,
+      "climbing_ratio": 7,
+      "start_date": "2022-09-04",
+      "end_date": "2022-09-04",
+      "performance_goal": -1,
+      "description": "The Le Petit Grand Prix Sportive is the little sister event to the successful Lincoln Grand Prix. The route is characterised by rolling, steady hills, with a maximum gradient of 5%. ",
+      "country": "UK",
+      "city": "Lincoln",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/4n9Y"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 24,
+    "fields": {
+      "name": "Le Petit Grand Prix Sportive (Short)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 82,
+      "elevation_gain": 472,
+      "climbing_ratio": 6,
+      "start_date": "2022-09-04",
+      "end_date": "2022-09-04",
+      "performance_goal": -1,
+      "description": "The Le Petit Grand Prix Sportive is the little sister event to the successful Lincoln Grand Prix. The route is characterised by rolling, steady hills, with a maximum gradient of 5%.",
+      "country": "UK",
+      "city": "Lincoln",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/CTDE"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 25,
+    "fields": {
+      "name": "The Christmas 100 Sportive (100 Miles)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 162,
+      "elevation_gain": 1253,
+      "climbing_ratio": 8,
+      "start_date": "2021-12-18",
+      "end_date": "2021-12-18",
+      "performance_goal": -1,
+      "description": "Finish your cycling year on a high with this late season sportive. Test your end-of-season fitness around the quiet country lanes of Berkshire and into the Chilterns. There are even mince pies available at each feed station.",
+      "country": "UK",
+      "city": "Surrey",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/tNbR"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 26,
+    "fields": {
+      "name": "The Christmas 100 Sportive (100 Killometers)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 103,
+      "elevation_gain": 645,
+      "climbing_ratio": 7,
+      "start_date": "2021-12-18",
+      "end_date": "2021-12-18",
+      "performance_goal": -1,
+      "description": "Finish your cycling year on a high with this late season sportive. Test your end-of-season fitness around the quiet country lanes of Berkshire and into the Chilterns. There are even mince pies available at each feed station.",
+      "country": "UK",
+      "city": "Surrey",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/6hfL"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 27,
+    "fields": {
+      "name": "Strade Bianche Gran Fondo",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 139,
+      "elevation_gain": 2265,
+      "climbing_ratio": 17,
+      "start_date": "2022-03-05",
+      "end_date": "2022-03-05",
+      "performance_goal": -1,
+      "description": "Starting from Siena, the Gran Fondo Strade Bianche will take you around the hills of the Senese region. Riders will take on the iconic white gravel roads, testing themselves on five challenging gravel sectors, the longest at 9.5km.",
+      "country": "ITA",
+      "city": "Siena",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/576f"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 28,
+    "fields": {
+      "name": "Liege-Bastogne-Liege Challenge Sportive",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 250,
+      "elevation_gain": 4454,
+      "climbing_ratio": 18,
+      "start_date": "2022-04-24",
+      "end_date": "2022-04-24",
+      "performance_goal": -1,
+      "description": "Liege-Bastogne-Liege is one of the five Monuments of the European professional road cycling calendar. The challenge sportive provides you with the opportunity to ride the same course as the pros (including all those cobbled sections).",
+      "country": "BE",
+      "city": "Liege",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/8oVM"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 29,
+    "fields": {
+      "name": "Cheshire Cat Sportive (Long)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 175,
+      "elevation_gain": 1655,
+      "climbing_ratio": 10,
+      "start_date": "2022-03-27",
+      "end_date": "2022-03-27",
+      "performance_goal": -1,
+      "description": "The iconic Cheshire Cat, one of the first major sportives in the UK, is back on the UK sportive calendar. Starting from the beautiful Queens Park in Crew, you will find yourself winding your way into the quiet country lanes of the Cheshire countryside.",
+      "country": "UK",
+      "city": "Crew",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/YAgg"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 30,
+    "fields": {
+      "name": "Cheshire Cat Sportive (Medium)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 130,
+      "elevation_gain": 1255,
+      "climbing_ratio": 10,
+      "start_date": "2022-03-27",
+      "end_date": "2022-03-27",
+      "performance_goal": -1,
+      "description": "The iconic Cheshire Cat, one of the first major sportives in the UK, is back on the UK sportive calendar. Starting from the beautiful Queens Park in Crew, you will find yourself winding your way into the quiet country lanes of the Cheshire countryside.",
+      "country": "UK",
+      "city": "Crew",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/wEm1"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 31,
+    "fields": {
+      "name": "Cheshire Cat Sportive (Short)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 85,
+      "elevation_gain": 455,
+      "climbing_ratio": 6,
+      "start_date": "2022-03-27",
+      "end_date": "2022-03-27",
+      "performance_goal": -1,
+      "description": "The iconic Cheshire Cat, one of the first major sportives in the UK, is back on the UK sportive calendar. Starting from the beautiful Queens Park in Crew, you will find yourself winding your way into the quiet country lanes of the Cheshire countryside.",
+      "country": "UK",
+      "city": "Crew",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/SN9h"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 32,
+    "fields": {
+      "name": "The Peaks Tour (Long)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 161,
+      "elevation_gain": 2613,
+      "climbing_ratio": 17,
+      "start_date": "2022-09-03",
+      "end_date": "2022-09-03",
+      "performance_goal": -1,
+      "description": "This spectacular sportive will take you on an adventure through the Peak District National Park. In true Peak District fashion there are plenty of both short savage and long endurance climbs. But don't be discouraged, you'll be rewarded with jaw-dropping views throughout the course.",
+      "country": "UK",
+      "city": "Peak District",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/3uow"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 33,
+    "fields": {
+      "name": "The Peaks Tour (Middle)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 121,
+      "elevation_gain": 1861,
+      "climbing_ratio": 16,
+      "start_date": "2022-09-03",
+      "end_date": "2022-09-03",
+      "performance_goal": -1,
+      "description": "This spectacular sportive will take you on an adventure through the Peak District National Park. In true Peak District fashion there are plenty of both short savage and long endurance climbs. But don't be discouraged, you'll be rewarded with jaw-dropping views throughout the course.",
+      "country": "UK",
+      "city": "Peak District",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/F6rX"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 34,
+    "fields": {
+      "name": "The Peaks Tour (Short)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 74,
+      "elevation_gain": 1186,
+      "climbing_ratio": 17,
+      "start_date": "2022-09-03",
+      "end_date": "2022-09-03",
+      "performance_goal": -1,
+      "description": "This spectacular sportive will take you on an adventure through the Peak District National Park. In true Peak District fashion there are plenty of both short savage and long endurance climbs. But don't be discouraged, you'll be rewarded with jaw-dropping views throughout the course.",
+      "country": "UK",
+      "city": "Peak District",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/xAen"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 35,
+    "fields": {
+      "name": "The New Forest Tour (Long)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 156,
+      "elevation_gain": 1187,
+      "climbing_ratio": 8,
+      "start_date": "2022-04-09",
+      "end_date": "2022-04-09",
+      "performance_goal": -1,
+      "description": "The New Forest Tour is the penultimate Tour Series Event of the year. This event will take you on an adventure through the beautiful New Forest National Park through the wide sweeping roads.",
+      "country": "UK",
+      "city": "New Forest",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/PGmx"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 36,
+    "fields": {
+      "name": "The New Forest Tour (Middle)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 114,
+      "elevation_gain": 784,
+      "climbing_ratio": 7,
+      "start_date": "2022-04-09",
+      "end_date": "2022-04-09",
+      "performance_goal": -1,
+      "description": "The New Forest Tour is the penultimate Tour Series Event of the year. This event will take you on an adventure through the beautiful New Forest National Park through the wide sweeping roads.",
+      "country": "UK",
+      "city": "New Forest",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/BnC4"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 37,
+    "fields": {
+      "name": "The New Forest Tour (Short)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 72,
+      "elevation_gain": 487,
+      "climbing_ratio": 7,
+      "start_date": "2022-04-09",
+      "end_date": "2022-04-09",
+      "performance_goal": -1,
+      "description": "The New Forest Tour is the penultimate Tour Series Event of the year. This event will take you on an adventure through the beautiful New Forest National Park through the wide sweeping roads.",
+      "country": "UK",
+      "city": "New Forest",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/cVPL"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 38,
+    "fields": {
+      "name": "The Kent Classic (Long)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 113,
+      "elevation_gain": 1546,
+      "climbing_ratio": 14,
+      "start_date": "2022-10-09",
+      "end_date": "2022-10-09",
+      "performance_goal": -1,
+      "description": "Starting and finishing at the Lingfield Racecourse, the route initially takes you down and along the county border of East Sussex and Kent, before navigating around Hever Castles. This route showcases some of the best rolling hills and diverse landscapes of the local area.",
+      "country": "UK",
+      "city": "Lingfield",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/MCsg"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 39,
+    "fields": {
+      "name": "The Kent Classic (Middle)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 78,
+      "elevation_gain": 1020,
+      "climbing_ratio": 14,
+      "start_date": "2022-10-09",
+      "end_date": "2022-10-09",
+      "performance_goal": -1,
+      "description": "Starting and finishing at the Lingfield Racecourse, the route initially takes you down and along the county border of East Sussex and Kent, before navigating around Hever Castles. This route showcases some of the best rolling hills and diverse landscapes of the local area.",
+      "country": "UK",
+      "city": "Lingfield",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/iUea"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 40,
+    "fields": {
+      "name": "The Kent Classic (Short)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 49,
+      "elevation_gain": 663,
+      "climbing_ratio": 14,
+      "start_date": "2022-10-09",
+      "end_date": "2022-10-09",
+      "performance_goal": -1,
+      "description": "Starting and finishing at the Lingfield Racecourse, the route initially takes you down and along the county border of East Sussex and Kent, before navigating around Hever Castles. This route showcases some of the best rolling hills and diverse landscapes of the local area.",
+      "country": "UK",
+      "city": "Lingfield",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/8u4i"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 41,
+    "fields": {
+      "name": "Otley Sportive (Long)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 120,
+      "elevation_gain": 1934,
+      "climbing_ratio": 17,
+      "start_date": "2021-09-12",
+      "end_date": "2021-09-12",
+      "performance_goal": -1,
+      "description": "Starting up in West Yorkshire, the Otley sportive is True Events’ first and original sportive. The loop is a scenic traverse of the Yorkshire dales, including some big climbs but mainly featuring gentle and rolling hills.",
+      "country": "UK",
+      "city": "Otley",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/bTwk"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 42,
+    "fields": {
+      "name": "Otley Sportive (Medium)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 85,
+      "elevation_gain": 1200,
+      "climbing_ratio": 15,
+      "start_date": "2021-09-12",
+      "end_date": "2021-09-12",
+      "performance_goal": -1,
+      "description": "Starting up in West Yorkshire, the Otley sportive is True Events’ first and original sportive. The loop is a scenic traverse of the Yorkshire dales, including some big climbs but mainly featuring gentle and rolling hills.",
+      "country": "UK",
+      "city": "Otley",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/ztwY"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 43,
+    "fields": {
+      "name": "Fallen Leaves Classic",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 70,
+      "elevation_gain": 912,
+      "climbing_ratio": 14,
+      "start_date": "2021-10-17",
+      "end_date": "2021-10-17",
+      "performance_goal": -1,
+      "description": "Due to popular demand the Fallen Leaves Classic event is brought back to the UK sportive events calendar. Test your end of season form before the cold grind and the winter bikes come out.",
+      "country": "UK",
+      "city": "Leeds",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/GBfr"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 44,
+    "fields": {
+      "name": "Tour of Cambridgeshire (TOC100)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 762,
+      "climbing_ratio": 5,
+      "start_date": "2022-06-05",
+      "end_date": "2022-06-05",
+      "performance_goal": -1,
+      "description": "The Tour of Cambridgeshire is a cycling festival with several events taking place over  two days  each year. Starting from the Peterborough are the route heads southwards for a tour of some of the most quaint and beautiful villages the UK has to offer. Enjoy a weekend long festival of cycling like no other.",
+      "country": "UK",
+      "city": "Cambridgeshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/vMcA"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 45,
+    "fields": {
+      "name": "Tour of Cambridgeshire (TOC70)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 113,
+      "elevation_gain": 610,
+      "climbing_ratio": 6,
+      "start_date": "2022-06-05",
+      "end_date": "2022-06-05",
+      "performance_goal": -1,
+      "description": "The Tour of Cambridgeshire is a cycling festival with several events taking place over  two days  each year. Starting from the Peterborough are the route heads southwards for a tour of some of the most quaint and beautiful villages the UK has to offer. Enjoy a weekend long festival of cycling like no other.",
+      "country": "UK",
+      "city": "Cambridgeshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/2u7U"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 46,
+    "fields": {
+      "name": "Tour of Cambridgeshire (TOC50)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 80,
+      "elevation_gain": 457,
+      "climbing_ratio": 6,
+      "start_date": "2022-06-05",
+      "end_date": "2022-06-05",
+      "performance_goal": -1,
+      "description": "The Tour of Cambridgeshire is a cycling festival with several events taking place over  two days  each year. Starting from the Peterborough are the route heads southwards for a tour of some of the most quaint and beautiful villages the UK has to offer. Enjoy a weekend long festival of cycling like no other.",
+      "country": "UK",
+      "city": "Cambridgeshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/16mo"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 47,
+    "fields": {
+      "name": "Tour of Cambridgeshire (Gran Fondo UCI)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 762,
+      "climbing_ratio": 5,
+      "start_date": "2022-06-05",
+      "end_date": "2022-06-05",
+      "performance_goal": -1,
+      "description": "The Tour of Cambridgeshire is a cycling festival with several events taking place over  two days  each year. Starting from the Peterborough are the route heads southwards for a tour of some of the most quaint and beautiful villages the UK has to offer. Enjoy a weekend long festival of cycling like no other.",
+      "country": "UK",
+      "city": "Cambridgeshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/u6U4"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 48,
+    "fields": {
+      "name": "The Flat 100 (25 Miles)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 40,
+      "elevation_gain": 105,
+      "climbing_ratio": 3,
+      "start_date": "2022-06-11",
+      "end_date": "2022-06-11",
+      "performance_goal": -1,
+      "description": "The Flat 100 is one of Sportive HQ's most iconic and popular rides. As the name suggests, it is possibly the flattest sportive in the UK. Forget about the climbs and focus on your speed for this iconically fast event.",
+      "country": "UK",
+      "city": "South Yorkshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/yPhx"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 49,
+    "fields": {
+      "name": "The Flat 100 (65 Miles)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 105,
+      "elevation_gain": 279,
+      "climbing_ratio": 3,
+      "start_date": "2022-06-11",
+      "end_date": "2022-06-11",
+      "performance_goal": -1,
+      "description": "The Flat 100 is one of Sportive HQ's most iconic and popular rides. As the name suggests, it is possibly the flattest sportive in the UK. Forget about the climbs and focus on your speed for this iconically fast event.",
+      "country": "UK",
+      "city": "South Yorkshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/jHWV"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 50,
+    "fields": {
+      "name": "The Flat 100 (100 Miles)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 500,
+      "climbing_ratio": 4,
+      "start_date": "2022-06-11",
+      "end_date": "2022-06-11",
+      "performance_goal": -1,
+      "description": "The Flat 100 is one of Sportive HQ's most iconic and popular rides. As the name suggests, it is possibly the flattest sportive in the UK. Forget about the climbs and focus on your speed for this iconically fast event.",
+      "country": "UK",
+      "city": "South Yorkshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/sd12"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 51,
+    "fields": {
+      "name": "The Flat 200 (200 Miles)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 320,
+      "elevation_gain": 1056,
+      "climbing_ratio": 4,
+      "start_date": "2022-06-11",
+      "end_date": "2021-06-11",
+      "performance_goal": -1,
+      "description": "The Flat 100 is one of Sportive HQ's most iconic and popular rides. As the name suggests, it is possibly the flattest sportive in the UK. Forget about the climbs and focus on your speed for this iconically fast event.",
+      "country": "UK",
+      "city": "South Yorkshire",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/gjG6"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 52,
+    "fields": {
+      "name": "The Flat 100 South (25 Miles)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 40,
+      "elevation_gain": 108,
+      "climbing_ratio": 3,
+      "start_date": "2022-07-16",
+      "end_date": "2022-07-16",
+      "performance_goal": -1,
+      "description": "Following the success of The Flat 100, Sportive HQ added The Flat 100 South to their event calendar. This sportive provides you with the opportunity to ride a sportive without hills getting in the way. Forget about the climbs and focus on your speed for this fast event.",
+      "country": "UK",
+      "city": "Peterborough",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/xpni"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 53,
+    "fields": {
+      "name": "The Flat 100 South (65 Miles)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 105,
+      "elevation_gain": 234,
+      "climbing_ratio": 3,
+      "start_date": "2022-07-16",
+      "end_date": "2022-07-16",
+      "performance_goal": -1,
+      "description": "Following the success of The Flat 100, Sportive HQ added The Flat 100 South to their event calendar. This sportive provides you with the opportunity to ride a sportive without hills getting in the way. Forget about the climbs and focus on your speed for this fast event.",
+      "country": "UK",
+      "city": "Peterborough",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/dXsJ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 54,
+    "fields": {
+      "name": "The Flat 100 South (100 Miles)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 425,
+      "climbing_ratio": 3,
+      "start_date": "2022-07-16",
+      "end_date": "2022-07-16",
+      "performance_goal": -1,
+      "description": "Following the success of The Flat 100, Sportive HQ added The Flat 100 South to their event calendar. This sportive provides you with the opportunity to ride a sportive without hills getting in the way. Forget about the climbs and focus on your speed for this fast event.",
+      "country": "UK",
+      "city": "Peterborough",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/JQbU"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 55,
+    "fields": {
+      "name": "East Riding 100 (33 Miles)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 53,
+      "elevation_gain": 428,
+      "climbing_ratio": 9,
+      "start_date": "2022-08-07",
+      "end_date": "2022-08-07",
+      "performance_goal": -1,
+      "description": "Unlike the other Sportive HQ events, the East Riding 100 sportive provides an opportunity to take on some of Yorkshire's finest hills. The route takes you though the Yorkshire Wolds and captures the beautiful scenery.",
+      "country": "UK",
+      "city": "East Yorkshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/EtTX"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 56,
+    "fields": {
+      "name": "East Riding 100 (57 Miles)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 92,
+      "elevation_gain": 733,
+      "climbing_ratio": 8,
+      "start_date": "2022-08-07",
+      "end_date": "2022-08-07",
+      "performance_goal": -1,
+      "description": "Unlike the other Sportive HQ events, the East Riding 100 sportive provides an opportunity to take on some of Yorkshire's finest hills. The route takes you though the Yorkshire Wolds and captures the beautiful scenery.",
+      "country": "UK",
+      "city": "East Yorkshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/ZA7W"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 57,
+    "fields": {
+      "name": "East Riding 100 (112 Miles)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 180,
+      "elevation_gain": 1665,
+      "climbing_ratio": 10,
+      "start_date": "2022-08-07",
+      "end_date": "2022-08-07",
+      "performance_goal": -1,
+      "description": "Unlike the other Sportive HQ events, the East Riding 100 sportive provides an opportunity to take on some of Yorkshire's finest hills. The route takes you though the Yorkshire Wolds and captures the beautiful scenery. ",
+      "country": "UK",
+      "city": "East Yorkshire",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/Kdp9"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 58,
+    "fields": {
+      "name": "London to Brighton",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 88,
+      "elevation_gain": 1056,
+      "climbing_ratio": 12,
+      "start_date": "2022-09-11",
+      "end_date": "2022-09-11",
+      "performance_goal": -1,
+      "description": "An event suitable for everyone, take on the glorious 55 miles route from central London to Brighton's beach.",
+      "country": "UK",
+      "city": "London",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/HZg5"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 59,
+    "fields": {
+      "name": "Dragon Ride (Devil)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 304,
+      "elevation_gain": 4350,
+      "climbing_ratio": 15,
+      "start_date": "2021-09-26",
+      "end_date": "2021-09-26",
+      "performance_goal": -1,
+      "description": "The Dragon Ride is one of the oldest and most iconic sportives in the UK. Riders will undertake some of the best sweeping climbs of the stunning Brecon Beacons. The route includes some seriously tough climbs to test your climbing abilities.",
+      "country": "UK",
+      "city": "Margram Park",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/dUQB"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 60,
+    "fields": {
+      "name": "Dragon Ride (Gran Fondo)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 211,
+      "elevation_gain": 3040,
+      "climbing_ratio": 15,
+      "start_date": "2021-09-26",
+      "end_date": "2021-09-26",
+      "performance_goal": -1,
+      "description": "The Dragon Ride is one of the oldest and most iconic sportives in the UK. Riders will undertake some of the best sweeping climbs of the stunning Brecon Beacons. The route includes some seriously tough climbs to test your climbing abilities.",
+      "country": "UK",
+      "city": "Margram Park",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/ezdH"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 61,
+    "fields": {
+      "name": "Dragon Ride (Medio Fondo)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 157,
+      "elevation_gain": 2110,
+      "climbing_ratio": 14,
+      "start_date": "2022-06-19",
+      "end_date": "2022-06-19",
+      "performance_goal": -1,
+      "description": "The Dragon Ride is one of the oldest and most iconic sportives in the UK. Riders will undertake some of the best sweeping climbs of the stunning Brecon Beacons. The route includes some seriously tough climbs to test your climbing abilities.",
+      "country": "UK",
+      "city": "Margram Park",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/pjLE"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 62,
+    "fields": {
+      "name": "Dragon Ride (Macmillan 100)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 100,
+      "elevation_gain": 1210,
+      "climbing_ratio": 13,
+      "start_date": "2021-09-26",
+      "end_date": "2021-09-26",
+      "performance_goal": -1,
+      "description": "The Dragon Ride is one of the oldest and most iconic sportives in the UK. Riders will undertake some of the best sweeping climbs of the stunning Brecon Beacons. The route includes some seriously tough climbs to test your climbing abilities.",
+      "country": "UK",
+      "city": "Margram Park",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/Tne8"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 63,
+    "fields": {
+      "name": "Etape Caledonia (85 miles)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 134,
+      "elevation_gain": 1630,
+      "climbing_ratio": 13,
+      "start_date": "2021-09-19",
+      "end_date": "2021-09-19",
+      "performance_goal": -1,
+      "description": "The Etape Caledonia is the UK's original closed road sportive. Experience the thrill of riding on closed roads in an area of outstanding natural beauty. Starting and finishing in Pitlochry, take in the beauty of Perthshire through forest line roads and rolling hills.",
+      "country": "UK",
+      "city": "Pitlochry",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/x4dg"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 64,
+    "fields": {
+      "name": "Etape Caledonia (45 miles)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 63,
+      "elevation_gain": 985,
+      "climbing_ratio": 16,
+      "start_date": "2021-09-19",
+      "end_date": "2021-09-19",
+      "performance_goal": -1,
+      "description": "The Etape Caledonia is the UK's original closed road sportive. Experience the thrill of riding on closed roads in an area of outstanding natural beauty. Starting and finishing in Pitlochry, take in the beauty of Perthshire through forest line roads and rolling hills.",
+      "country": "UK",
+      "city": "Pitlochry",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/AVaF"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 65,
+    "fields": {
+      "name": "Stockton Sportive (Tour de Moor)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 170,
+      "elevation_gain": 3361,
+      "climbing_ratio": 20,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "Departing from the event site of Stockton Riverside, on closed roads, riders will ride away on the country roads heading deep into North Yorkshire. Join the well supported event and feel like a star in the Tour de France for the day.",
+      "country": "UK",
+      "city": "Stockton",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/uvdT"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 66,
+    "fields": {
+      "name": "Stockton Sportive (Long)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 116,
+      "elevation_gain": 2002,
+      "climbing_ratio": 18,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "Departing from the event site of Stockton Riverside, on closed roads, riders will ride away on the country roads heading deep into North Yorkshire. Join the well supported event and feel like a star in the Tour de France for the day.",
+      "country": "UK",
+      "city": "Stockton",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/Qnok"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 67,
+    "fields": {
+      "name": "Stockton Sportive (Medium)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 80,
+      "elevation_gain": 1078,
+      "climbing_ratio": 14,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "Departing from the event site of Stockton Riverside, on closed roads, riders will ride away on the country roads heading deep into North Yorkshire. Join the well supported event and feel like a star in the Tour de France for the day.",
+      "country": "UK",
+      "city": "Stockton",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/PAuQ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 68,
+    "fields": {
+      "name": "Stockton Sportive (Short)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 59,
+      "elevation_gain": 453,
+      "climbing_ratio": 8,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "Departing from the event site of Stockton Riverside, on closed roads, riders will ride away on the country roads heading deep into North Yorkshire. Join the well supported event and feel like a star in the Tour de France for the day.",
+      "country": "UK",
+      "city": "Stockton",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/6AFi"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 69,
+    "fields": {
+      "name": "Dartmoor Legend Ultra Sportive",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 323,
+      "elevation_gain": 5500,
+      "climbing_ratio": 18,
+      "start_date": "2022-07-09",
+      "end_date": "2022-07-09",
+      "performance_goal": -1,
+      "description": "This truly epic event takes riders around 200 miles of the Dartmoor National Park. The route includes many iconic climbs including Darmeet, Doccombe, Haytor, Holne, Merrivale, Peak Hill and lot more. Yes, the route is challenging but the scenery and views are as breathtaking as the climbs.",
+      "country": "UK",
+      "city": "Dartmoor",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/nFuv"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 70,
+    "fields": {
+      "name": "Wales IN A DAY",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 298,
+      "elevation_gain": 4500,
+      "climbing_ratio": 16,
+      "start_date": "2021-07-17",
+      "end_date": "2021-07-17",
+      "performance_goal": -1,
+      "description": "An epic cycling challenge that takes you on your journey across the country of Wales.  The challenging 185 miles route takes you from the historic town of Caernarfon in North Wales, to Chepstow. With the beautiful Welsh countryside you'll be spoilt for views the whole way.",
+      "country": "UK",
+      "city": "Caernarfon",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/RyF1"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 71,
+    "fields": {
+      "name": "L'Étape Australia (136 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 136,
+      "elevation_gain": 2770,
+      "climbing_ratio": 21,
+      "start_date": "2022-03-20",
+      "end_date": "2022-03-20",
+      "performance_goal": -1,
+      "description": "L'Étape Australia provides amateur riders with the closes experience they can get to riding the Tour de France. The route replicates a mountainous stage of the Tour de France. It is not an easy ride, but it a ride you will be proud to complete. ",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/fKYX"
+    }
+  },
+
+  {
+    "model": "event.NamedEvent",
+    "pk": 72,
+    "fields": {
+      "name": "Bass Coast Cycle Challenge (121 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 121,
+      "elevation_gain": 1598,
+      "climbing_ratio": 14,
+      "start_date": "2021-11-06",
+      "end_date": "2021-11-06",
+      "performance_goal": -1,
+      "description": "Bass Coast Cycle Challenge is a scenic one day ride with a beautiful view of the Bass Coast hills. The 121 km route starts at Inverloch and includes 14 climbs, including 250m high Mt Misery climb",
+      "country": "AU",
+      "city": "Victoria",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/kwLq"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 73,
+    "fields": {
+      "name": "Bass Coast Cycle Challenge (85 km)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 85,
+      "elevation_gain": 969,
+      "climbing_ratio": 12,
+      "start_date": "2021-11-06",
+      "end_date": "2021-11-06",
+      "performance_goal": -1,
+      "description": "Bass Coast Cycle Challenge is a scenic one day ride with a beautiful view of the Bass Coast hills. The 85 km route starts at Inverloch and includes 8 climbs, including 250m high Mt Misery climb",
+      "country": "AU",
+      "city": "Victoria",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/VJYa"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 74,
+    "fields": {
+      "name": "Bass Coast Cycle Challenge (53 km)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 53,
+      "elevation_gain": 467,
+      "climbing_ratio": 9,
+      "start_date": "2021-11-06",
+      "end_date": "2021-11-06",
+      "performance_goal": -1,
+      "description": "Bass Coast Cycle Challenge is a scenic one day ride with a beautiful view of the Bass Coast hills. The 53 km route starts at Inverloch and is great for intermediate riders with a 130m climb",
+      "country": "AU",
+      "city": "Victoria",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/MhJG"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 75,
+    "fields": {
+      "name": "Sydney to Gong Ride (82 km)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 82,
+      "elevation_gain": 869,
+      "climbing_ratio": 11,
+      "start_date": "2021-11-07",
+      "end_date": "2021-11-07",
+      "performance_goal": -1,
+      "description": "Sydney to the Gong ride takes riders on a spectacular journey through forests and along coastlines.",
+      "country": "AU",
+      "city": "Sydney",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/TH4v"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 76,
+    "fields": {
+      "name": "Sydney to Gong Ride (58 km)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 58,
+      "elevation_gain": 557,
+      "climbing_ratio": 10,
+      "start_date": "2021-11-07",
+      "end_date": "2021-11-07",
+      "performance_goal": -1,
+      "description": "Sydney to the Gong ride takes riders on a spectacular journey through forests and along coastlines",
+      "country": "AU",
+      "city": "Sydney",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/vA1U"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 77,
+    "fields": {
+      "name": "Sally's Ride - Tamar Valley Cycle Challenge (45km)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 45,
+      "elevation_gain": 390,
+      "climbing_ratio": 9,
+      "start_date": "2021-11-14",
+      "end_date": "2021-11-14",
+      "performance_goal": -1,
+      "description": "The Sally's Ride - Tamar Valley Cycle Challenge targets cyclists who want a shorter faster ride. Cyclists travel along the edge of the Tamar estuary, which is rich with birdlife and amazing scenery",
+      "country": "AU",
+      "city": "Tasmania",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/DtEv"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 78,
+    "fields": {
+      "name": "Sally's Ride - Tamar Valley Cycle Challenge (70 km)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 70,
+      "elevation_gain": 766,
+      "climbing_ratio": 11,
+      "start_date": "2021-11-14",
+      "end_date": "2021-11-14",
+      "performance_goal": -1,
+      "description": "The Sally's Ride - Tamar Valley Cycle Challenge targets the more experienced rider who seeks an increased challenge coupled with a scenic cycling environment",
+      "country": "AU",
+      "city": "Tasmania",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/K2h9"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 79,
+    "fields": {
+      "name": "Sally's Ride - Tamar Valley Cycle Challenge (100 km)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 100,
+      "elevation_gain": 1095,
+      "climbing_ratio": 11,
+      "start_date": "2021-11-14",
+      "end_date": "2021-11-14",
+      "performance_goal": -1,
+      "description": "The Sally's Ride - Tamar Valley Cycle Challenge will suit the experienced rider who is looking for an extended challenge. It follows a route along the East Tamar to Karoola/Turners Marsh and Hillwood and over the famous Batman Bridge",
+      "country": "AU",
+      "city": "Tasmania",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/ZZsf"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 80,
+    "fields": {
+      "name": "Peaks Challenge Falls Creek (235km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 235,
+      "elevation_gain": 4700,
+      "climbing_ratio": 20,
+      "start_date": "2022-03-13",
+      "end_date": "2022-03-13",
+      "performance_goal": -1,
+      "description": "Peaks Challenge Falls Creek is a 235km loop ride that aims to provide cyclists with one of the world’s toughest and most picturesque cycling challenges through Victoria’s Alpine region.",
+      "country": "AU",
+      "city": "Victoria",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/vq8y"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 81,
+    "fields": {
+      "name": "Jervis Bay Gran Fondo (90 km)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 90,
+      "elevation_gain": 663,
+      "climbing_ratio": 8,
+      "start_date": "2021-11-20",
+      "end_date": "2021-11-20",
+      "performance_goal": -1,
+      "description": "The Jervis Bay Gran Fondo takes you on a ride that rewards the hard work you put in as you pass along the Shoalhaven River and through the beautiful countryside.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/pmdn"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 82,
+    "fields": {
+      "name": "Jervis Bay Gran Fondo (60 km)",
+      "event_type": 8,
+      "sports_type": "CYCLING",
+      "distance_per_day": 60,
+      "elevation_gain": 442,
+      "climbing_ratio": 8,
+      "start_date": "2021-11-20",
+      "end_date": "2021-11-20",
+      "performance_goal": -1,
+      "description": "The Jervis Bay Gran Fondo takes you on a ride that rewards the hard work you put in as you pass along the Shoalhaven River and through the beautiful countryside.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/Niky"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 83,
+    "fields": {
+      "name": "Bendigo Cycling Classic (100 km)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 100,
+      "elevation_gain": 1157,
+      "climbing_ratio": 12,
+      "start_date": "2021-11-07",
+      "end_date": "2021-11-07",
+      "performance_goal": -1,
+      "description": "The Bendigo Cycling Classic is a fantastic ride for enthusiastic cyclists, offering a few hills around Mt Alexander, including Harcourt, with amazing views of the scenic countryside. Traversing alongside orchards, vineyards and meandering hills before an easy ride back to Bendigo",
+      "country": "AU",
+      "city": "Bendigo Town Hall",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/RrPe"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 84,
+    "fields": {
+      "name": "Bendigo Cycling Classic (60 km)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 60,
+      "elevation_gain": 620,
+      "climbing_ratio": 11,
+      "start_date": "2021-11-07",
+      "end_date": "2021-11-07",
+      "performance_goal": -1,
+      "description": "The Bendigo Cycling Classic takes riders past historic landmarks, beautiful bushland and rolling countryside from Bendigo, out to picturesque Sedgwick and back.",
+      "country": "AU",
+      "city": "Bendigo Town Hall",
+      "is_active": false,
+      "share_link": "https://pillarapp.page.link/WYdM"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 85,
+    "fields": {
+      "name": "Snowy Classic (160 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 160,
+      "elevation_gain": 3335,
+      "climbing_ratio": 21,
+      "start_date": "2022-03-26",
+      "end_date": "2022-03-26",
+      "performance_goal": -1,
+      "description": "The Snowy Classic is set in and around the beautiful Snowy region of New South Wales. The ride starts and finish at Banjo Paterson Park, adjacent to Lake Jindabyne, passing through the picturesque towns of Berridale, Dalgety and Jindabyne.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/nGgB"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 86,
+    "fields": {
+      "name": "Snowy Classic (110 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 110,
+      "elevation_gain": 1451,
+      "climbing_ratio": 14,
+      "start_date": "2022-03-26",
+      "end_date": "2022-03-26",
+      "performance_goal": -1,
+      "description": "The Snowy Classic is set in and around the beautiful Snowy region of New South Wales. The ride start and finish at Banjo Paterson Park, adjacent to Lake Jindabyne, passing through the picturesque towns of Berridale, Dalgety and Jindabyne.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/F131"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 87,
+    "fields": {
+      "name": "The Mudgee Classic (170 km)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 170,
+      "elevation_gain": 1819,
+      "climbing_ratio": 11,
+      "start_date": "2022-05-02",
+      "end_date": "2022-05-02",
+      "performance_goal": -1,
+      "description": "The Mudgee Classic is set in New South Wales beautiful Mudgee wine region and it will surely be a bike ride to remember.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/qAQ3"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 88,
+    "fields": {
+      "name": "The Mudgee Classic (120 km)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 120,
+      "elevation_gain": 1321,
+      "climbing_ratio": 12,
+      "start_date": "2022-05-02",
+      "end_date": "2022-05-02",
+      "performance_goal": -1,
+      "description": "The Mudgee Classic is set in New South Wales beautiful Mudgee wine region, and it will surely be a bike ride to remember.",
+      "country": "AU",
+      "city": "New South Wales",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/UA6s"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 89,
+    "fields": {
+      "name": "Chase The Sun (UK SOUTH)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 330,
+      "elevation_gain": 3000,
+      "climbing_ratio": 10,
+      "start_date": "2022-06-18",
+      "end_date": "2022-06-18",
+      "performance_goal": -1,
+      "description": "Starting in the Thames estuary, the 200+ mile route bi-sects south London, bridging the Thames onto Wiggin’s Olympic time trial route, before seeking green country lanes, quaint villages, the lush Vale of Pewsey, climbing the Mendip hills, descending breathtaking Cheddar gorge, finally arriving on the seafront at Burnham-on-Sea.",
+      "country": "UK",
+      "city": "Minster, Isle-of-Sheppey",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/8Ab3"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 90,
+    "fields": {
+      "name": "Chase The Sun (UK NORTH)",
+      "event_type": 1,
+      "sports_type": "CYCLING",
+      "distance_per_day": 322,
+      "elevation_gain": 3200,
+      "climbing_ratio": 10,
+      "start_date": "2022-06-18",
+      "end_date": "2022-06-18",
+      "performance_goal": -1,
+      "description": "A double-century feat over an epic 200 miles leaving from the beachfront at Whitley Bay at the first ray of ocean sunrise aiming to reach the esplanade at Ayr to witness the sunsetting into the sea beside the Isle of Arran",
+      "country": "UK",
+      "city": "Whitley Bay",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/JVGD"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 91,
+    "fields": {
+      "name": "Chase The Sun (ITALIA)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 275,
+      "elevation_gain": 3300,
+      "climbing_ratio": 12,
+      "start_date": "2022-06-18",
+      "end_date": "2022-06-18",
+      "performance_goal": -1,
+      "description": "Ride across Italy in a day. Depart from Pantani’s town of Cesenatico on the Adriatic sea, to reach the Tirrenia coast, east to west, from sunshine to sunset. The most romantic long distance cycling challenge, climbing through vineyards and vistas, 275+ kilometers and 3300m elevation. Magnifico!",
+      "country": "ITA",
+      "city": "Cesenatico",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/Yfk6"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 92,
+    "fields": {
+      "name": "Spring Classic (87k)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 87,
+      "elevation_gain": 1900,
+      "climbing_ratio": 22,
+      "start_date": "2022-04-10",
+      "end_date": "2022-04-10",
+      "performance_goal": -1,
+      "description": "Save yourself the trouble of travelling to Europe for a spring sportive and ride the myHill Cycling Spring Classic. Don't be fooled by the distances as this event packs in up to 17 categorised climbs and 1900m of climbing.",
+      "country": "UK",
+      "city": "Rowsley",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/xUnJ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 93,
+    "fields": {
+      "name": "Spring Classic (60k)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 60,
+      "elevation_gain": 1300,
+      "climbing_ratio": 22,
+      "start_date": "2022-04-10",
+      "end_date": "2022-04-10",
+      "performance_goal": -1,
+      "description": "Save yourself the trouble of travelling to Europe for a spring sportive and ride the myHill Cycling Spring Classic. Don't be fooled by the distances as this event packs in up to 10 categorised climbs and 1300m of climbing.",
+      "country": "UK",
+      "city": "Rowsley",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/gDkZ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 94,
+    "fields": {
+      "name": "Spring Classic (70k)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 70,
+      "elevation_gain": 1550,
+      "climbing_ratio": 23,
+      "start_date": "2022-04-10",
+      "end_date": "2022-04-10",
+      "performance_goal": -1,
+      "description": "Save yourself the trouble of travelling to Europe for a spring sportive and ride the myHill Cycling Spring Classic. Don't be fooled by the distances as this event packs in up to 12 categorised climbs and 1550m of climbing.",
+      "country": "UK",
+      "city": "Rowsley",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/sxNz"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 95,
+    "fields": {
+      "name": "The Borwell Cycle (Spring Classic)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 217,
+      "elevation_gain": 4750,
+      "climbing_ratio": 22,
+      "start_date": "2022-04-10",
+      "end_date": "2022-04-10",
+      "performance_goal": -1,
+      "description": "Drawing it's inspiration from the Barkley Marathons, the Borwell Cycle is on the boundary of what is possible. The concept is simple: the clock starts (even if you don't) at 7am and stops at 4pm, and within this time you must complete all 3 routes of the Spring Classic sportive in the order of 87K, 60K and 70K.",
+      "country": "UK",
+      "city": "Rowsley",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/yzG7"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 96,
+    "fields": {
+      "name": "Paris Roubaix Challenge (70 km)",
+      "event_type": 2,
+      "sports_type": "CYCLING",
+      "distance_per_day": 70,
+      "elevation_gain": 500,
+      "climbing_ratio": 8,
+      "start_date": "2022-04-16",
+      "end_date": "2022-04-16",
+      "performance_goal": -1,
+      "description": "This is your chance to shake, rattle and roll along the famous Paris Roubaix cobbled route on the day before the pros. Discover just how much your body can be rattled in one day on a bike - Paris Roubaix will test your endurance levels and bike handling skills like few other sportives can.",
+      "country": "FRA",
+      "city": "Busigny - Roubaix",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/r5M8"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 97,
+    "fields": {
+      "name": "Paris Roubaix Challenge (145 km)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 145,
+      "elevation_gain": 900,
+      "climbing_ratio": 7,
+      "start_date": "2022-04-16",
+      "end_date": "2022-04-16",
+      "performance_goal": -1,
+      "description": "This is your chance to shake, rattle and roll along the famous Paris Roubaix cobbled route on the day before the pros. Discover just how much your body can be rattled in one day on a bike - Paris Roubaix will test your endurance levels and bike handling skills like few other sportives can.",
+      "country": "FRA",
+      "city": "Busigny - Roubaix",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/1UQ4"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 98,
+    "fields": {
+      "name": "Paris Roubaix Challenge (170 km)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 170,
+      "elevation_gain": 1200,
+      "climbing_ratio": 8,
+      "start_date": "2022-04-16",
+      "end_date": "2022-04-16",
+      "performance_goal": -1,
+      "description": "This is your chance to shake, rattle and roll along the famous Paris Roubaix cobbled route on the day before the pros. Discover just how much your body can be rattled in one day on a bike - Paris Roubaix will test your endurance levels and bike handling skills like few other sportives can.",
+      "country": "FRA",
+      "city": "Busigny - Roubaix",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/2pv8"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 99,
+    "fields": {
+      "name": "The Wales Sportive (40 miles)",
+      "event_type": 4,
+      "sports_type": "CYCLING",
+      "distance_per_day": 66,
+      "elevation_gain": 847,
+      "climbing_ratio": 13,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "The Wales Sportive is the most comprehensive closed road ride in Wales with an award-wining finishing line in Tenby. This event has  and incredible atmosphere and it's the only televised sportive in the UK.",
+      "country": "UK",
+      "city": "Tenby",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/a9FY"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 100,
+    "fields": {
+      "name": "The Wales Sportive (70 miles)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 118,
+      "elevation_gain": 1364,
+      "climbing_ratio": 12,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "The Wales Sportive is the most comprehensive closed road ride in Wales with an award-wining finishing line in Tenby. This event has  and incredible atmosphere and it's the only televised sportive in the UK.",
+      "country": "UK",
+      "city": "Tenby",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/vRgf"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 101,
+    "fields": {
+      "name": "The Wales Sportive (112 miles)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 178,
+      "elevation_gain": 2145,
+      "climbing_ratio": 13,
+      "start_date": "2022-07-02",
+      "end_date": "2022-07-02",
+      "performance_goal": -1,
+      "description": "The Wales Sportive is the most comprehensive closed road ride in Wales with an award-wining finishing line in Tenby. This event has  and incredible atmosphere and it's the only televised sportive in the UK.",
+      "country": "UK",
+      "city": "Tenby",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/zCX4"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 102,
+    "fields": {
+      "name": "Granfondo Stelvio Santini (Short)",
+      "event_type": 7,
+      "sports_type": "CYCLING",
+      "distance_per_day": 60,
+      "elevation_gain": 1950,
+      "climbing_ratio": 33,
+      "start_date": "2022-06-12",
+      "end_date": "2022-06-12",
+      "performance_goal": -1,
+      "description": "The Mortirolo and the Stelvio are two of the most beautiful climbs in the world that echo with the feats of Fausto Coppi and Marco Pantani. The Grandondo Stelvio Santini will allow you to pit yourself against these legendary climbs and follow in the pedal strokes of some of the greatest icons cycling has ever known",
+      "country": "ITA",
+      "city": "Bormio",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/c9pD"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 103,
+    "fields": {
+      "name": "Granfondo Stelvio Santini (Medium)",
+      "event_type": 8,
+      "sports_type": "CYCLING",
+      "distance_per_day": 137,
+      "elevation_gain": 3053,
+      "climbing_ratio": 23,
+      "start_date": "2022-06-12",
+      "end_date": "2022-06-12",
+      "performance_goal": -1,
+      "description": "The Mortirolo and the Stelvio are two of the most beautiful climbs in the world that echo with the feats of Fausto Coppi and Marco Pantani. The Grandondo Stelvio Santini will allow you to pit yourself against these legendary climbs and follow in the pedal strokes of some of the greatest icons cycling has ever known",
+      "country": "ITA",
+      "city": "Bormio",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/HVkE"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 104,
+    "fields": {
+      "name": "Granfondo Stelvio Santini (Long)",
+      "event_type": 9,
+      "sports_type": "CYCLING",
+      "distance_per_day": 151,
+      "elevation_gain": 4058,
+      "climbing_ratio": 27,
+      "start_date": "2022-06-12",
+      "end_date": "2022-06-12",
+      "performance_goal": -1,
+      "description": "The Mortirolo and the Stelvio are two of the most beautiful climbs in the world that echo with the feats of Fausto Coppi and Marco Pantani. The Grandondo Stelvio Santini will allow you to pit yourself against these legendary climbs and follow in the pedal strokes of some of the greatest icons cycling has ever known",
+      "country": "ITA",
+      "city": "Bormio",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/WxPB"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 105,
+    "fields": {
+      "name": "Marmotte Granfondo Alps",
+      "event_type": 9,
+      "sports_type": "CYCLING",
+      "distance_per_day": 186,
+      "elevation_gain": 5180,
+      "climbing_ratio": 28,
+      "start_date": "2022-07-03",
+      "end_date": "2022-07-03",
+      "performance_goal": -1,
+      "description": "The Marmotte is considered as the ultimate European sportive. The La Marmotte features three HC climbs over its 186 km route and has a total of 5,180 metres of climbing, making it one of the toughest courses of any sportive in the world.",
+      "country": "FRA",
+      "city": "Bourg D'Oisans",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/36bQ"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 106,
+    "fields": {
+      "name": "Marmotte Granfondo Alps (UltraFondo)",
+      "event_type": 9,
+      "sports_type": "CYCLING",
+      "distance_per_day": 235,
+      "elevation_gain": 6500,
+      "climbing_ratio": 28,
+      "start_date": "2022-07-03",
+      "end_date": "2022-07-03",
+      "performance_goal": -1,
+      "description": "The Marmotte is considered as the ultimate European sportive. For the 40th anniversary, The UltraFondo Marmotte is born.  The 235 km route and has a total of 6,300 metres of climbing, making it one of the toughest courses of any sportive in the world.",
+      "country": "FRA",
+      "city": "Bourg D'Oisans",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/EMCD"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 107,
+    "fields": {
+      "name": "Tour of Flanders Sportive (74 km)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 74,
+      "elevation_gain": 700,
+      "climbing_ratio": 10,
+      "start_date": "2022-04-02",
+      "end_date": "2022-04-02",
+      "performance_goal": -1,
+      "description": "2021 sees the 105th edition of the Ronde van Vlaanderen, one of cycling's legendary Spring Classics. Each year the day before the pros battle it out a sportive is held to allow the public to share the experience of riding the famous cobbles of Flanders in one of the highlights of the sportive calendar.",
+      "country": "BEL",
+      "city": "Oudenaarde",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/wiVf"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 108,
+    "fields": {
+      "name": "Tour of Flanders Sportive (139 km)",
+      "event_type": 5,
+      "sports_type": "CYCLING",
+      "distance_per_day": 139,
+      "elevation_gain": 1000,
+      "climbing_ratio": 8,
+      "start_date": "2022-04-02",
+      "end_date": "2022-04-02",
+      "performance_goal": -1,
+      "description": "2021 sees the 105th edition of the Ronde van Vlaanderen, one of cycling's legendary Spring Classics. Each year the day before the pros battle it out a sportive is held to allow the public to share the experience of riding the famous cobbles of Flanders in one of the highlights of the sportive calendar.",
+      "country": "BEL",
+      "city": "Oudenaarde",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/obcW"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 109,
+    "fields": {
+      "name": "Tour of Flanders Sportive (174 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 174,
+      "elevation_gain": 1600,
+      "climbing_ratio": 10,
+      "start_date": "2022-04-02",
+      "end_date": "2022-04-02",
+      "performance_goal": -1,
+      "description": "2021 sees the 105th edition of the Ronde van Vlaanderen, one of cycling's legendary Spring Classics. Each year the day before the pros battle it out a sportive is held to allow the public to share the experience of riding the famous cobbles of Flanders in one of the highlights of the sportive calendar.",
+      "country": "BEL",
+      "city": "Oudenaarde",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/595c"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 110,
+    "fields": {
+      "name": "Tour of Flanders Sportive (229 km)",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 229,
+      "elevation_gain": 2000,
+      "climbing_ratio": 9,
+      "start_date": "2022-04-02",
+      "end_date": "2022-04-02",
+      "performance_goal": -1,
+      "description": "2021 sees the 105th edition of the Ronde van Vlaanderen, one of cycling's legendary Spring Classics. Each year the day before the pros battle it out a sportive is held to allow the public to share the experience of riding the famous cobbles of Flanders in one of the highlights of the sportive calendar.",
+      "country": "BEL",
+      "city": "Oudenaarde",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/78sS"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 111,
+    "fields": {
+      "name": "Tour of Wessex (Long)",
+      "event_type": 12,
+      "sports_type": "CYCLING",
+      "distance_per_day": 517,
+      "elevation_gain": 5690,
+      "climbing_ratio": 12,
+      "start_date": "2022-06-02",
+      "end_date": "2022-06-04",
+      "performance_goal": -1,
+      "description": "Experience the challenge of riding 3 days back to back in the South West - Somerset, Dorset, Wiltshire and Devon. The Tour of Wessex is a 3 stage cyclosportive.",
+      "country": "UK",
+      "city": "Yeovil",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/tusv"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 112,
+    "fields": {
+      "name": "Tour of Wessex (Medium)",
+      "event_type": 11,
+      "sports_type": "CYCLING",
+      "distance_per_day": 395,
+      "elevation_gain": 4454,
+      "climbing_ratio": 12,
+      "start_date": "2022-06-02",
+      "end_date": "2022-06-04",
+      "performance_goal": -1,
+      "description": "Experience the challenge of riding 3 days back to back in the South West - Somerset, Dorset, Wiltshire and Devon. The Tour of Wessex is a 3 stage cyclosportive.",
+      "country": "UK",
+      "city": "Yeovil",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/CvCu"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 113,
+    "fields": {
+      "name": "Welsh 500",
+      "event_type": 12,
+      "sports_type": "CYCLING",
+      "distance_per_day": 500,
+      "elevation_gain": 6957,
+      "climbing_ratio": 14,
+      "start_date": "2022-08-13",
+      "end_date": "2022-08-14",
+      "performance_goal": -1,
+      "description": "Experience the ultra challenge of riding 2 days back to back through the Brecon Beacons and Cambrian Mountains. The Welsh 500 is a 2 stage self supported challenge.",
+      "country": "UK",
+      "city": "Bristol",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/4doL"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 114,
+    "fields": {
+      "name": "Haute Route Alps",
+      "event_type": 15,
+      "sports_type": "CYCLING",
+      "distance_per_day": 792,
+      "elevation_gain": 21300,
+      "climbing_ratio": 27,
+      "start_date": "2022-08-21",
+      "end_date": "2022-08-27",
+      "performance_goal": -1,
+      "description": "The flagship event of the Haute Route Cycling Series is a challenge like no other. The course is packed with bucket list climbs made famous by the Tour de France, plus a host of cols over 2,000 metres above sea level. The crown jewel in the Haute Route calendar gives you the rare opportunity to pin on a number and test yourself on many of the world’s most famous climbs as well as long, point-to-point stages.",
+      "country": "FRA",
+      "city": "Nice - Megeve",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/Gq1U"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 115,
+    "fields": {
+      "name": "Haute Route Pyrenees",
+      "event_type": 15,
+      "sports_type": "CYCLING",
+      "distance_per_day": 627,
+      "elevation_gain": 15700,
+      "climbing_ratio": 26,
+      "start_date": "2022-07-05",
+      "end_date": "2022-07-09",
+      "performance_goal": -1,
+      "description": "A raw mountain experience. Enjoy peaceful, narrow roads inaccessible to pro races, encounters with wild animals and a chance to appreciate the untamed chain of peaks that make the Pyrenees world-renowned.",
+      "country": "FRA",
+      "city": "Biarritz - Saint-Lary-Soulan",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/24Nu"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 116,
+    "fields": {
+      "name": "Haute Route Dolomites",
+      "event_type": 15,
+      "sports_type": "CYCLING",
+      "distance_per_day": 458,
+      "elevation_gain": 14850,
+      "climbing_ratio": 33,
+      "start_date": "2022-08-30",
+      "end_date": "2022-09-03",
+      "performance_goal": -1,
+      "description": "Stunning, steep, and legendary, the iconic climbs in the Dolomites draw cyclists from all over the globe. Conjuring images of vast pine forests crashing into immense limestone towers, it's little wonder why this land of epic contrast has become one of the world's most important cycling destinations. During the Haute Route Dolomites, you'll have the unique opportunity to pin on a number, and test yourself or compete against friends for bragging rights on some of the most famous cycling climbs in the world.",
+      "country": "ITA",
+      "city": "Bormio - Cortina D'Ampezzo",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/bjJF"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 117,
+    "fields": {
+      "name": "Haute Route Alpe d'Huez",
+      "event_type": 15,
+      "sports_type": "CYCLING",
+      "distance_per_day": 236,
+      "elevation_gain": 8650,
+      "climbing_ratio": 37,
+      "start_date": "2022-06-24",
+      "end_date": "2022-06-26",
+      "performance_goal": -1,
+      "description": "Follow the path of the sports very best on the most famous climb in all of cycling: Alpe d'Huez. In a course steeped in cycling history, take on this legendary climb and discover the surrounding climbs which make this region a Mecca for road cyclists. With two classic stages, plus a time trial up the famous 21 switchbacks, this is one ride you do not want to miss.",
+      "country": "FRA",
+      "city": "Alpe d'Huez",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/8QzX"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 118,
+    "fields": {
+      "name": "Haute Route Davos",
+      "event_type": 15,
+      "sports_type": "CYCLING",
+      "distance_per_day": 265,
+      "elevation_gain": 6750,
+      "climbing_ratio": 26,
+      "start_date": "2022-09-23",
+      "end_date": "2022-09-25",
+      "performance_goal": -1,
+      "description": "Switzerland is well known for its picture-postcard scenery, and the vast, breathtaking vistas of the Graubunden region do not disappoint. The dark timber of charming, centuries-old villages and pastel-coloured waters of wild rivers punctuate this idyllic landscape, tucked away in the east of the Swiss Alps.",
+      "country": "CH",
+      "city": "Davos",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/imzn"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 119,
+    "fields": {
+      "name": "Chase The Sun (IRELAND)",
+      "event_type": 3,
+      "sports_type": "CYCLING",
+      "distance_per_day": 336,
+      "elevation_gain": 3400,
+      "climbing_ratio": 11,
+      "start_date": "2022-06-18",
+      "end_date": "2022-06-18",
+      "performance_goal": -1,
+      "description": "A spectacular new adventure, coast to coast riders will explore the mythical landscapes and landmarks of the ’emerald isle’. Starting from sunrise on the Irish Sea at the historic Titanic docks of Belfast, up the dramatic coastal road and the Antrim Glens, heading inland to traverse forests, mountains, and loughs. The route crosses the border of Northern and Republic of Ireland, and finishes at sunset on the Atlantic beaches at Enniscrone.",
+      "country": "IRL",
+      "city": "Belfast",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/RWbE"
+    }
+  },
+  {
+    "model": "event.NamedEvent",
+    "pk": 120,
+    "fields": {
+      "name": "Dorset 300",
+      "event_type": 6,
+      "sports_type": "CYCLING",
+      "distance_per_day": 300,
+      "elevation_gain": 3854,
+      "climbing_ratio": 13,
+      "start_date": "2022-06-18",
+      "end_date": "2022-06-18",
+      "performance_goal": -1,
+      "description": "Circumnavigate the 300 km county boundary of Dorset between sun up and sundown on the longest day of the year. Start and Finish from Sherborne. Start any time after ‘Sun Up’ and cross the finish line before ‘Sun Down’.",
+      "country": "UK",
+      "city": "Sherborne",
+      "is_active": true,
+      "share_link": "https://pillarapp.page.link/LpzG"
+    }
+  }
+]

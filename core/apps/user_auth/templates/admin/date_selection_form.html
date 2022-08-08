@@ -1,0 +1,23 @@
+{% extends "admin/base_site.html" %}
+{% load i18n l10n %}
+
+{% block content %}
+<form action="" method="post">{% csrf_token %}
+  <p>{{ title }}:</p>
+  <ul>{{ queryset|unordered_list }}</ul>
+  <div>
+  {% for obj in queryset %}
+  <input type="hidden" name="{{ action_checkbox_name }}" value="{{ obj.pk|unlocalize }}" />
+  {% endfor %}
+
+  <label for="start_date">Start Date:</label>
+  <input type="date" id="start_date" name="start_date"><br><br>
+
+  <label for="end_date">End Date:</label>
+  <input type="date" id="end_date" name="end_date"><br><br>
+
+  <input type="hidden" name="action" value={{ action_name }} />
+  <input type="submit" name="apply" value="{{ submit_button_name }}" />
+  </div>
+</form>
+{% endblock %}

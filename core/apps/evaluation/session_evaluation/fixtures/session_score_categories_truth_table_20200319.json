@@ -1,0 +1,29 @@
+[
+  {
+    "model": "session_evaluation.SessionScoreCategoriesTruthTable",
+    "pk": 1,
+    "fields": {
+      "score_category": "Excellent",
+      "score_range_lower_bound": 8,
+      "score_range_upper_bound": 10
+    }
+  },
+  {
+    "model": "session_evaluation.SessionScoreCategoriesTruthTable",
+    "pk": 2,
+    "fields": {
+      "score_category": "Good",
+      "score_range_lower_bound": 5,
+      "score_range_upper_bound": 7
+    }
+  },
+  {
+    "model": "session_evaluation.SessionScoreCategoriesTruthTable",
+    "pk": 3,
+    "fields": {
+      "score_category": "Poor",
+      "score_range_lower_bound": 0,
+      "score_range_upper_bound": 4
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "settings.ThirdPartySettings",
+    "pk": 1,
+    "fields": {
+      "name": "Garmin",
+      "priority": 2,
+      "code": 1
+    }
+  },
+  {
+    "model": "settings.ThirdPartySettings",
+    "pk": 2,
+    "fields": {
+      "name": "Strava",
+      "priority": 3,
+      "code": 2
+    }
+  },
+  {
+    "model": "settings.ThirdPartySettings",
+    "pk": 3,
+    "fields": {
+      "name": "Wahoo",
+      "priority": 1,
+      "code": 3
+    }
+  },
+  {
+    "model": "settings.ThirdPartySettings",
+    "pk": 4,
+    "fields": {
+      "name": "Manual",
+      "priority": 10,
+      "code": 4
+    }
+  }
+]

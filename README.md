@@ -1,1 +1,3 @@
-# code-samples
+# Pillar Core API
+
+pillar-core-api

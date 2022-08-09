@@ -682,18 +682,18 @@ class UserSupportServiceV2:
 
     @classmethod
     def _generate_s3_uploaded_file_url(cls, s3_file_path):
-        base_url = "https://user-support-pillar.s3.amazonaws.com/"
+        base_url = ""
         return base_url + s3_file_path
 
     @classmethod
     def _post_to_notion_board(cls, notion_payload):
-        url = "https://api.notion.com/v1/pages"
+        url = ""
 
         payload = json.dumps(notion_payload)
         headers = {
-            "Authorization": "Bearer secret_R60kyFwUC47PLnCI06XbVM3bkbK3B9mrPjzKAGZ9Zm1",
+            "Authorization": "",
             "Content-Type": "application/json",
-            "Notion-Version": "2021-08-16",
+            "Notion-Version": "",
         }
 
         response = requests.request("POST", url, headers=headers, data=payload)
@@ -705,7 +705,7 @@ class UserSupportServiceV2:
     @classmethod
     def _generate_notion_payload(cls, data):
         notion_payload = {
-            "parent": {"database_id": "60788e6f58cb4a0083a23a49ba8a5360"},
+            "parent": {"database_id": ""},
             "properties": {
                 "Support ID": {
                     "type": "title",
@@ -744,7 +744,7 @@ class UserSupportServiceV2:
 
     @classmethod
     def _post_to_slack_channel(cls, slack_payload):
-        url = "https://hooks.slack.com/services/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"
+        url = ""
         payload = json.dumps(slack_payload)
         headers = {"Content-type": "application/json"}
         response = requests.request("POST", url, headers=headers, data=payload)
@@ -759,36 +759,7 @@ class UserSupportServiceV2:
                 {
                     "type": "section",
                     "fields": [
-                        {"type": "mrkdwn", "text": f"*Name:*\n{data.get('name')}"},
-                        {"type": "mrkdwn", "text": f"*Email:*\n{data.get('email')}"},
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*Type of Issue:*\n{data.get('type_of_issue')}",
-                        },
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*Date of Issue:*\n{data.get('date_of_issue')}",
-                        },
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*App Version:*\n{data.get('app_version')}",
-                        },
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*Device Model:*\n{data.get('device_model')}",
-                        },
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*Notion:*\n<{data.get('notion_url')}| Open in Notion>",
-                        },
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*Attachment:*\n<{data.get('attachment_url')}| View Attachment>",
-                        },
-                        {
-                            "type": "mrkdwn",
-                            "text": f"*User Log:*\n<{data.get('user_log')}| View Attachment>",
-                        },
+                        
                     ],
                 },
                 {
@@ -830,9 +801,9 @@ class HubspotServiceV2:
 
     @staticmethod
     def _get_url():
-        portal_id = "5311062"
-        form_guid = "b9d9f961-949d-44a8-93fa-f20416cd0d4b"
-        base_url = "https://api.hsforms.com/submissions/v3/integration/submit/"
+        portal_id = ""
+        form_guid = ""
+        base_url = ""
         return f"{base_url}{portal_id}/{form_guid}"
 
     @staticmethod
